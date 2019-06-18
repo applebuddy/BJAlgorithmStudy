@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		387FAD2122B2A63300218C7C /* 카탈린수ExamCollection_{([])}.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38191E1822AF9D1B00D5D986 /* 카탈린수ExamCollection_{([])}.cpp */; };
+		3844225222B8FAD5001C81C8 /* Set_규칙찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3844225122B8FAD5001C81C8 /* Set_규칙찾기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +43,7 @@
 		383CACFE226C81AF00C54F4A /* 2_3_Permutation_TSP_10971.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3_Permutation_TSP_10971.cpp; sourceTree = "<group>"; };
 		383CAD00226C93CE00C54F4A /* 2_3_Permutation_Lotto_6603.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3_Permutation_Lotto_6603.cpp; sourceTree = "<group>"; };
 		383CAD02226CA5D200C54F4A /* 2_3_Permutation_OperatorCombination_14888.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3_Permutation_OperatorCombination_14888.cpp; sourceTree = "<group>"; };
+		3844225122B8FAD5001C81C8 /* Set_규칙찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Set_규칙찾기.cpp"; sourceTree = "<group>"; };
 		384BF8C6229B835500133CF7 /* 5_DynamicP_1로만들기(R)1463.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5_DynamicP_1로만들기(R)1463.cpp"; sourceTree = "<group>"; };
 		384BF8C8229B898D00133CF7 /* 5_DynamicP_2xn타일링_11726.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5_DynamicP_2xn타일링_11726.cpp"; sourceTree = "<group>"; };
 		384BF8CA229B8C6400133CF7 /* 5_DynamicP_2xn타일링2_11727.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5_DynamicP_2xn타일링2_11727.cpp"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				38E68DD222AD3FDC00F1EC94 /* Set_정렬하기.cpp */,
 				38E68DCF22AA560900F1EC94 /* Set_Array.cpp */,
 				384F5A9922A7DB8C008C67F5 /* Set_사칙연산.cpp */,
+				3844225122B8FAD5001C81C8 /* Set_규칙찾기.cpp */,
 				38E68DC922A9E6B200F1EC94 /* Set_수학.cpp */,
 				38E68DC722A9CDDA00F1EC94 /* Set_LCD,GCD.cpp */,
 				384F5A9B22A7DCC2008C67F5 /* Set_Prime.cpp */,
@@ -289,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387FAD2122B2A63300218C7C /* 카탈린수ExamCollection_{([])}.cpp in Sources */,
+				3844225222B8FAD5001C81C8 /* Set_규칙찾기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
