@@ -8,61 +8,55 @@
 
 #include <iostream>
 #include <vector>
+#include <string.h>
 using namespace std;
 
 typedef pair<int,int> Pair;
+bool *chk;
 Pair *dp;
-bool *visited;
 
-Pair getFib(int n){
-    
-    if(visited[n]==true) return dp[n];
-    
-    visited[n]=true;
-    
-    if(n==0){
+Pair go(int n) {
+    if(chk[n]==true) return dp[n];
+    chk[n]=true;
+    if(n==0) {
         dp[n].first++;
         return dp[n];
     }
-    else if(n==1){
+    else if(n==1) {
         dp[n].second++;
         return dp[n];
     }
-    else{
-        dp[n-1]=getFib(n-1);
-        dp[n-2]=getFib(n-2);
-        return Pair(dp[n-1].first+dp[n-2].first, dp[n-1].second+dp[n-2].second);
+    else {
+        dp[n].first = go(n-1).first+go(n-2).first;
+        dp[n].second = go(n-1).second+go(n-2).second;
+        return dp[n];
     }
 }
 
-int main(){
-    int n;
+int main() {
+    int T;
+    scanf("%d",&T);
+    vector<Pair> sol;
     
-    scanf("%d",&n);
-    Pair *answer = new Pair[n];
-    vector<pair<int,int>> sol(n);
-
-    for(int i=0; i<n; i++){
-        int num;
-        scanf("%d",&num);
+    while(T--) {
+        int N;
+        chk = new bool[41];
         dp = new Pair[41];
-        visited = new bool[41];
-        fill_n(visited,41,false);
-        fill_n(dp,41,make_pair(0,0));
-
-        answer[i] = getFib(num);
+        fill_n(chk, 41, false);
+        fill_n(dp, 41, make_pair(0, 0));
+        scanf("%d",&N);
+        go(N);
+        sol.push_back(make_pair(dp[N].first, dp[N].second));
+        
+        delete []chk;
         delete []dp;
-        delete []visited;
-    }
-    for(int i=0; i<n; i++){
-        cout << answer[i].first << " " << answer[i].second << "\n";
     }
     
+    for(auto s : sol) {
+        printf("%d %d\n",s.first,s.second);
+    }
     return 0;
 }
-
-
-
 //long long memo[100] = {0,};
 //long long getFibonacci(int n){
 //    if(n<=1){
