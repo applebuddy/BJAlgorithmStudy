@@ -6,22 +6,23 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// 0 = not cut / 1 = cute
-#include <stdio.h>
+//// 0 = not cut / 1 = cute
+//#include <stdio.h>
+//
+//int main() {
+//    int T,count=0;
+//    scanf("%d",&T);
+//    int t=T;
+//    while(T--) {
+//        int n;
+//        scanf("%d",&n);
+//        if(n==1) count++;
+//    }
+//    if(count>t/2) printf("Junhee is cute!\n");
+//    else printf("Jujhee is not cute!\n");
+//    return 0;
+//}
 
-int main() {
-    int T,count=0;
-    scanf("%d",&T);
-    int t=T;
-    while(T--) {
-        int n;
-        scanf("%d",&n);
-        if(n==1) count++;
-    }
-    if(count>t/2) printf("Junhee is cute!\n");
-    else printf("Jujhee is not cute!\n");
-    return 0;
-}
 //// 2007년_1924
 //#include <stdio.h>
 //#include <string>
