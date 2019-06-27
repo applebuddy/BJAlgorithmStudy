@@ -6,6 +6,37 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+// 수들의 합_1789
+#include <stdio.h>
+int main() {
+    long long S=0,n=1,s=1,Ans=0;
+    scanf("%lld",&S);
+    while(s<=S){
+        if(s>S) break;
+        else n++; s+=n; Ans++;
+    }
+    printf("%lld\n",Ans);
+    return 0;
+}
+
+// 출석부 문제
+//#include <stdio.h>
+//#include <vector>
+//using namespace std;
+//vector<int> vec(31,0);
+//int main() {
+//    int count = 28;
+//    while(count--) {
+//        int n;
+//        scanf("%d",&n);
+//        vec[n]++;
+//    }
+//    for(int i=1; i<=30; i++) {
+//        if(vec[i]==0) printf("%d\n",i);
+//    }
+//    return 0;
+//}
+
 // 색종이_2563
 //#include <iostream>
 //#include <string.h>
