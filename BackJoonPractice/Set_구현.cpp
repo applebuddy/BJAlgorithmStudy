@@ -6,31 +6,133 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// 에라토스테네스의 체_2960
-#include <iostream>
-#include <vector>
-using namespace std;
-vector<int> c(1001,1);
-int main() {
-    c[0]=0;
-    c[1]=0;
-    int N,K,count=0;
-    scanf("%d %d",&N,&K);
-    
-    for(int i=2; i<=N; i++)
-        if(c[i]==1)
-            for(int j=i; j<=N; j+=i) {
-                if(c[j]==1) {
-                    c[j]=0;
-                    count++;
-                    if(K==count) {
-                        printf("%d\n",j);
-                        return 0;
-                    }
-                }
-            }
-    return 0;
-}
+// 색종이_2563
+//#include <iostream>
+//#include <string.h>
+//#define MAX 100
+//using namespace std;
+//int paper[100][100];
+//int main() {
+//    int T,Ans=0;
+//    for(int i=0; i<MAX; i++) memset(paper[i],0,sizeof(paper[i]));
+//    scanf("%d",&T);
+//    while(T--) {
+//        int x,y;
+//        scanf("%d %d",&x,&y);
+//        for(int i=x; i<x+10; i++) {
+//            for(int j=y; j<y+10; j++) {
+//                if(paper[i][j]==0) {
+//                paper[i][j]=1;
+//                Ans++;
+//                }
+//            }
+//        }
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 택시 기하학_3053
+//#include <stdio.h>
+//#include <cmath>
+//int main() {
+//    double R;
+//    scanf("%lf",&R);
+//    printf("%lf\n%lf\n",R*R*3.1415926535897932384,R*R*2);
+//    return 0;
+//}
+
+//// 듣보잡_1764
+//#include <iostream>
+//#include <map>
+//#define endl "\n"
+//using namespace std;
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0);
+//    cin.tie(0);
+//    cout.tie(0);
+//    int N,M,ans=0;
+//    map<string,int> map;
+//    cin >> N >> M;
+//    for(int i=0; i<N; i++){
+//        string s;
+//        cin >> s;
+//        map[s]++;
+//    }
+//    for(int i=0; i<M; i++){
+//        string s;
+//        cin >> s;
+//        map[s]++;
+//    }
+//    for(auto m : map) {
+//        if(m.second>=2) {
+//            ans++;
+//        }
+//    }
+//    cout << ans << endl;
+//    for(auto m : map) {
+//        if(m.second>=2) {
+//            cout << m.first << endl;
+//        }
+//    }
+//    return 0;
+//}
+//// 알람시계_2884
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//    int H,M;
+//    scanf("%d %d",&H,&M);
+//    if(M>=45) M-=45;
+//    else {
+//            M=M+60-45;
+//            if(H==0) H=23;
+//            else H--;
+//    }
+//    printf("%d %d\n",H,M);
+//    return 0;
+//}
+
+//// 정수 N개의 합_15596 * 함수 제출 문제
+//#include <stdio.h>
+//#include <vector>
+//using namespace std;
+//vector<int> input(3000000,0);
+//long long sum(vector<int> &a) {
+//    long long ans=0;
+//    for(auto v : a) {
+//        ans+=v;
+//    }
+//    return ans;
+//}
+
+//// 에라토스테네스의 체_2960
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//vector<int> c(1001,1);
+//int main() {
+//    c[0]=0;
+//    c[1]=0;
+//    int N,K,count=0;
+//    scanf("%d %d",&N,&K);
+//
+//    for(int i=2; i<=N; i++)
+//        if(c[i]==1)
+//            for(int j=i; j<=N; j+=i) {
+//                if(c[j]==1) {
+//                    c[j]=0;
+//                    count++;
+//                    if(K==count) {
+//                        printf("%d\n",j);
+//                        return 0;
+//                    }
+//                }
+//            }
+//    return 0;
+//}
 
 
 //// 세로읽기_10798
