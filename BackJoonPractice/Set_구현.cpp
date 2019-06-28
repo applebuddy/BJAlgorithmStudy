@@ -6,18 +6,157 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// 수들의 합_1789
-#include <stdio.h>
-int main() {
-    long long S=0,n=1,s=1,Ans=0;
-    scanf("%lld",&S);
-    while(s<=S){
-        if(s>S) break;
-        else n++; s+=n; Ans++;
-    }
-    printf("%lld\n",Ans);
-    return 0;
-}
+
+
+//// 농구 경기_1159
+//#include <iostream>
+//#include <vector>
+//#include <map>
+//#define endl "\n"
+//using namespace std;
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0);
+//    cin.tie(0); cout.tie(0);
+//    int N; bool flag=false;
+//    cin >> N;
+//    map<string,int> mp;
+//    for(int i=0; i<N; i++) {
+//        string temp;
+//        cin >> temp;
+//        temp = temp.substr(0,1);
+//        mp[temp]++;
+//    }
+//    for(auto m : mp) {
+//        if(m.second>=5) {
+//            flag=true;
+//            cout << m.first;
+//        }
+//    }
+//    if(flag==false) cout << "PREDAJA";
+//    cout << endl;
+//    return 0;
+//}
+
+//// 방학숙제_5532
+//#include <stdio.h>
+//#include <cmath>
+//int main() {
+//    int H[5],Ans=0;
+//    int math=0,kor=0;
+//    double P=0,S=0;
+//    for(int i=0; i<5; i++) scanf("%d",&H[i]);
+//    math=(H[2]+H[4]-1)/H[4], kor=(H[1]+H[3]-1)/H[3];
+//    printf("%d\n",H[0]-(int)fmax(math,kor));
+//    return 0;
+//}
+
+//// 수도요금_10707
+//#include <stdio.h>
+//#include <cmath>
+//int main() {
+//    int arr[5]={0},X=0,Y=0,A=0,B=0,C=0,D=0,P=0,Ans=0;
+//    for(int i=0; i<5; i++) scanf("%d",&arr[i]);
+//    A=arr[0],B=arr[1],C=arr[2],D=arr[3],P=arr[4];
+//    X=P*A,Y=B;
+//    if(P>C) Y+=(P-C)*D;
+//    Ans=fmin(X,Y);
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 점수 계산_2822
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//int main() {
+//    vector<pair<int,int>> vec(8,make_pair(0, 0));
+//    vector<int> num;
+//    int sum=0;
+//    for(int i=0; i<8; i++) {
+//        scanf("%d",&vec[i].first);
+//        vec[i].second=i+1;
+//    }
+//    sort(vec.begin(), vec.end(),greater<>());
+//    for(int i=0; i<5; i++) {
+//        sum+=vec[i].first;
+//        num.push_back(vec[i].second);
+//    }
+//    sort(num.begin(), num.end());
+//    printf("%d\n",sum);
+//    for(auto v : num) printf("%d ",v);
+//    printf("\n");
+//    return 0;
+//}
+
+//// TGN_5063
+//#include <stdio.h>
+//int main() {
+//    int T;
+//    scanf("%d",&T);
+//    while(T--){
+//        int N[3] = {0};
+//        for(int i=0; i<3; i++) scanf("%d",&N[i]);
+//        if(N[0]<N[1]-N[2]) printf("advertise\n");
+//        else if(N[0]>N[1]-N[2]) printf("do not advertise\n");
+//        else printf("does not matter\n");
+//    }
+//    return 0;
+//}
+
+//// 과제 안 내신 분..?_5597
+//#include <stdio.h>
+//#include <vector>
+//using namespace std;
+//vector<int> vec(31,0);
+//int main() {
+//    int count = 28;
+//    while(count--) {
+//        int n;
+//        scanf("%d",&n);
+//        vec[n]++;
+//    }
+//    for(int i=1; i<=30; i++) {
+//        if(vec[i]==0) printf("%d\n",i);
+//    }
+//    return 0;
+//}
+
+//// 수 이어쓰기-1_1748
+//#include <stdio.h>
+//#include <cmath>
+//using namespace std;
+//int main() {
+//    int N=0,Ans=0,count=1,n=9;
+//    scanf("%d",&N);
+//    while(1){
+//        if(n<=N){
+//            Ans+=count*n;
+//            N-=n;
+//        }else{
+//            Ans+=count*N;
+//            break;
+//        }
+//        count++;
+//        n=9*pow(10,count-1);
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 수들의 합_1789
+//#include <stdio.h>
+//int main() {
+//    long long S=0,n=1,s=1,Ans=0;
+//    scanf("%lld",&S);
+//    while(s<=S){
+//        if(s>S) break;
+//        else n++; s+=n; Ans++;
+//    }
+//    printf("%lld\n",Ans);
+//    return 0;
+//}
 
 // 출석부 문제
 //#include <stdio.h>
