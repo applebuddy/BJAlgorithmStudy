@@ -6,7 +6,41 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// Mini Fantasy War_12790
+//#include <stdio.h>
+//int main(){
+//    int T;
+//    scanf("%d",&T);
+//    while(T--){
+//        int a[8]={0,};
+//        int Ans=0;
+//        for(int i=0; i<8; i++) scanf("%d",&a[i]);
+//        int HP=a[0]+a[4],MP=a[1]+a[5],Atk=a[2]+a[6],Def=a[3]+a[7];
+//        if(HP<=1) HP=1;
+//        if(MP<=1) MP=1;
+//        if(Atk<=0) Atk=0;
+//        Ans=HP+5*MP+2*Atk+2*Def;
+//        printf("%d\n",Ans);
+//    }
+//}
 
+//// 저울_2437
+//#include <stdio.h>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//int main() {
+//    int t,sum=0;
+//    scanf("%d",&t);
+//    vector<int> vec(t,0);
+//    for(int i=0; i<t; i++) scanf("%d",&vec[i]);
+//    sort(vec.begin(),vec.end());
+//    for(int i=0; i<t; i++){
+//        if(sum<vec[i]-1) break;
+//        sum+=vec[i];
+//    }
+//    printf("%d\n",sum+1);
+//}
 
 //// 농구 경기_1159
 //#include <iostream>
