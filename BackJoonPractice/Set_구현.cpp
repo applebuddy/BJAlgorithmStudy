@@ -6,6 +6,54 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// 내 학점을 구해줘_10984
+//#include <stdio.h>
+//int main(){
+//    int T;
+//    scanf("%d",&T);
+//    while(T--){
+//        int t;
+//        int C=0;
+//        double G=0;
+//        scanf("%d",&t);
+//        while(t--){
+//            int c;
+//            double g;
+//            scanf("%d %lf",&c,&g);
+//            C+=c; G+=c*g;
+//        }
+//        printf("%d %.1lf\n",(int)C,G/C);
+//    }
+//    return 0;
+//}
+
+//// 소음_2935
+//#include <iostream>
+//#include <string>
+//#define endl "\n"
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    string s1,s2;
+//    char m;
+//    cin >> s1 >> m >> s2;
+//    if(s1<s2){
+//        string temp = s1;
+//        s1 = s2;
+//        s2 = temp;
+//    }
+//    if(m=='*') {
+//        for(int i=0; i<(int)s2.length()-1; i++){
+//            s1+="0";
+//        }
+//    }
+//    else {
+//        if(s1.length()==s2.length()) s1[0]='2';
+//        else s1[s1.length()-s2.length()]='1';
+//    }
+//    cout << s1 << endl;
+//}
+
 //// Mini Fantasy War_12790
 //#include <stdio.h>
 //int main(){
