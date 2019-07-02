@@ -6,29 +6,29 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// 퇴사_14501 퇴사문제 해결 필요
-#include <stdio.h>
-int time[16]={0,};
-int price[16]={0,};
-int MAX=0;
-int N;
-void DFS(int Start, int Price){
-    if(MAX<Price) MAX=Price;
-    for(int i=Start; i<N+1; i++){
-        if(time[i]+i<=N+1){
-            DFS(i+time[i],Price+price[i]);
-        }
-    }
-    return;
-}
-
-int main(){
-    scanf("%d",&N);
-    for(int i=1; i<=N; i++) scanf("%d %d",&time[i],&price[i]);
-    DFS(1,0);
-    printf("%d\n",MAX);
-    return 0;
-}
+//// 퇴사_14501 퇴사문제 * 복습필요
+//#include <stdio.h>
+//int time[16]={0,};
+//int price[16]={0,};
+//int MAX=0;
+//int N;
+//void DFS(int Start, int Price){
+//    if(MAX<Price) MAX=Price;
+//    for(int i=Start; i<N+1; i++){
+//        if(time[i]+i<=N+1){
+//            DFS(i+time[i],Price+price[i]);
+//        }
+//    }
+//    return;
+//}
+//
+//int main(){
+//    scanf("%d",&N);
+//    for(int i=1; i<=N; i++) scanf("%d %d",&time[i],&price[i]);
+//    DFS(1,0);
+//    printf("%d\n",MAX);
+//    return 0;
+//}
 
 //// 분해합
 //#include <stdio.h>
