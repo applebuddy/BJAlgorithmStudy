@@ -6,6 +6,39 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+
+
+//// 하노이탑 이동 순서_11729
+//#include <stdio.h>
+//#include <vector>
+//using namespace std;
+//int cnt=0;
+//typedef pair<int,int> Pair;
+//vector<Pair> sol;
+//
+//void move(int from, int to){
+//    cnt++;
+//    sol.push_back(make_pair(from,to));
+//}
+//
+//void hanoi(int n, int from, int by, int to){
+//    if(n==1){
+//        move(from,to);
+//    }else{
+//    hanoi(n-1,from,to,by);
+//    move(from,to);
+//    hanoi(n-1,by,from,to);
+//    }
+//}
+//
+//int main(){
+//    int N; scanf("%d",&N);
+//    hanoi(N,1,2,3);
+//    printf("%d\n",cnt);
+//    for(int i=0; i<(int)sol.size(); i++) printf("%d %d\n",sol[i].first,sol[i].second);
+//    return 0;
+//}
+
 //#include <iostream>
 //using namespace std;
 //int main()
