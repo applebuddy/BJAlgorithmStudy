@@ -4,7 +4,88 @@
 //
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
+
+//// 결혼식_5567
+//#include <iostream>
+//#include <vector>
+//#include <queue>
+//#define endl "\n"
+//using namespace std;
+//vector<int> v[501];
+//vector<int> c(501,0);
+//int Ans=0;
 //
+//void BFS(int n){
+//    queue<int> q;
+//    q.push(n);
+//    c[n]=1;
+//    while(!q.empty()){
+//        int node = q.front();
+//        q.pop();
+//        for(int i=0; i<v[node].size(); i++){
+//            int next=v[node][i];
+//            if(c[next]==0){
+//                c[next]=c[node]+1;
+//                if(c[next]==2 || c[next]==3) Ans++;
+//                q.push(next);
+//            }
+//        }
+//    }
+//}
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int N,M;
+//    cin>>N>>M;
+//    for(int i=0; i<M; i++){
+//        int n,m; cin>>n>>m;
+//        v[n].push_back(m);
+//        v[m].push_back(n);
+//    }
+//    BFS(1); printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 앵그리 창영_3034
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    int N,W,H,R;
+//    scanf("%d %d %d",&N,&W,&H);
+//    R=(int)sqrt(pow(W,2)+pow(H,2));
+//    for(int i=0; i<N; i++){
+//        int t; scanf("%d",&t);
+//        if(t<=R) printf("DA\n");
+//        else printf("NE\n");
+//    }
+//    return 0;
+//}
+
+//// 슈퍼마리오_2851
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    int M[10]={0,};
+//    int Ans=0;
+//    for(int i=0; i<10; i++) scanf("%d",&M[i]);
+//    for(int i=0; i<10; i++) {
+//        int now=fabs(100-Ans),next=fabs(100-(Ans+M[i]));
+//        if(now >= next) Ans+=M[i];
+//        else { printf("%d\n",Ans); return 0; }
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 시험점수_5596
+//#include <stdio.h>
+//int main(){
+//    int min=0,man=0,a,b;
+//    for(int i=0; i<4; i++) { scanf("%d",&a); min+=a; }
+//    for(int i=0; i<4; i++) { scanf("%d",&b); man+=b; }
+//    printf("%d\n",min>man ? min : man);
+//    return 0;
+//}
 
 //// 내 학점을 구해줘_10984
 //#include <stdio.h>

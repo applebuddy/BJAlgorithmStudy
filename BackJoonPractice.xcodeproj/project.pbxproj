@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3862559422A6CD0300C65733 /* Set_Func활용하기.cpp */; };
 		3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3885E83322CB888500CC014D /* Set_BruteForce.cpp */; };
+		38B13E7722CD07E4005466EA /* Set_구현.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BBAC7422C0CB1000ADC27D /* Set_구현.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -302,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B13E7722CD07E4005466EA /* Set_구현.cpp in Sources */,
 				3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */,
 				3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */,
 			);
