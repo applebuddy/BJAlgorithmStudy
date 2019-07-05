@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3840DCFD22CF5DDE00480172 /* Set_정렬하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E68DD222AD3FDC00F1EC94 /* Set_정렬하기.cpp */; };
+		383BC33322CFB70400AF64B2 /* Set_문자열다루기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383BC33222CFB70400AF64B2 /* Set_문자열다루기.cpp */; };
 		3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3862559422A6CD0300C65733 /* Set_Func활용하기.cpp */; };
 		3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3885E83322CB888500CC014D /* Set_BruteForce.cpp */; };
 		38B13E7A22CDD540005466EA /* Set_GRAPH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38B13E7822CDC58C005466EA /* Set_GRAPH.cpp */; };
@@ -42,6 +42,7 @@
 		38273C892273380B00E49FE0 /* 4_1_Graph_이분그래프_1707.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4_1_Graph_이분그래프_1707.cpp"; sourceTree = "<group>"; };
 		38273C8B22734EA000E49FE0 /* 2_4_Recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_4_Recursion.cpp; sourceTree = "<group>"; };
 		38273C8D22734F4700E49FE0 /* 2_4_Recursion_1,2,3더하기_9095.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2_4_Recursion_1,2,3더하기_9095.cpp"; sourceTree = "<group>"; };
+		383BC33222CFB70400AF64B2 /* Set_문자열다루기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Set_문자열다루기.cpp"; sourceTree = "<group>"; };
 		383CACCD226B325500C54F4A /* 2_3_Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3_Permutation.cpp; sourceTree = "<group>"; };
 		383CACF8226C6EA700C54F4A /* 2_3_Permutation_next&prevPermutation_10972-3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2_3_Permutation_next&prevPermutation_10972-3.cpp"; sourceTree = "<group>"; };
 		383CACFA226C75AB00C54F4A /* 2_3_Permutation_allPermutation_10974.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_3_Permutation_allPermutation_10974.cpp; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 				384F5A9722A7D991008C67F5 /* Set_IuputOutput.cpp */,
 				3809EFB222C8BC9A0064A9E5 /* Set_Stack.cpp */,
 				38E68DD222AD3FDC00F1EC94 /* Set_정렬하기.cpp */,
+				383BC33222CFB70400AF64B2 /* Set_문자열다루기.cpp */,
 				38E68DCF22AA560900F1EC94 /* Set_Array.cpp */,
 				384F5A9922A7DB8C008C67F5 /* Set_사칙연산.cpp */,
 				3844225122B8FAD5001C81C8 /* Set_규칙찾기.cpp */,
@@ -308,8 +310,8 @@
 			files = (
 				3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */,
 				3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */,
-				3840DCFD22CF5DDE00480172 /* Set_정렬하기.cpp in Sources */,
 				38B13E7A22CDD540005466EA /* Set_GRAPH.cpp in Sources */,
+				383BC33322CFB70400AF64B2 /* Set_문자열다루기.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
