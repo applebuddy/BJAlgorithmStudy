@@ -6,6 +6,80 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// 좌표 정렬하기 2_11651
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//#define endl "\n"
+//using namespace std;
+//typedef pair<int,int> Pair;
+//
+//bool compare(const Pair &a, const Pair &b){
+//    if(a.second > b.second) return false;
+//    else if(a.second == b.second){
+//        if(a.first >= b.first) return false;
+//    }
+//    return true;
+//}
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int N; cin>>N;
+//    vector<Pair> vp; int x, y;
+//    for(int i=0; i<N; i++){
+//        cin>>x>>y;
+//        vp.push_back(make_pair(x,y));
+//    }
+//    sort(vp.begin(),vp.end(),compare);
+//    for(auto p : vp) printf("%d %d\n",p.first,p.second);
+//}
+
+//// 나이순 정렬_10814 * 튜플없이 다시 풀어보기
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//#include <tuple>
+//#define endl "\n"
+//using namespace std;
+//typedef tuple<int,string,int> Tuple;
+//
+//bool compare(const Tuple &a, const Tuple &b){
+//    if(get<0>(a) > get<0>(b)) return false;
+//    else{
+//        if(get<0>(a) == get<0>(b)){
+//            if(get<2>(a) >= get<2>(b)) return false;
+//        }
+//    }
+//    return true;
+//}
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int T; cin>>T;
+//    vector<Tuple> member;
+//    int age,seq=0; string name;
+//    for(int i=0; i<T; i++){
+//        cin>>age>>name;
+//        member.push_back(make_tuple(age,name,seq));
+//        seq++;
+//    }
+//    sort(member.begin(),member.end(),compare);
+//    for(auto m : member) printf("%d %s\n",get<0>(m),get<1>(m).c_str());
+//    return 0;
+//}
+
+//// K번째 수_11004
+//#include <stdio.h>
+//#include <string.h>
+//#include <algorithm>
+//using namespace std;
+//int main(){
+//    int N,K; scanf("%d %d",&N,&K);
+//    int Arr[N]; memset(Arr,0,sizeof(Arr));
+//    for(int i=0; i<N; i++) scanf("%d",&Arr[i]);
+//    sort(Arr,Arr+N);
+//    printf("%d\n",Arr[K-1]);
+//    return 0;
+//}
+
 //// 단어정렬_1181
 //#include <iostream>
 //#include <algorithm>

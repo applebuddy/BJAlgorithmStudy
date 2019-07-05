@@ -34,72 +34,70 @@ using namespace std;
 // 1 2 4 3
 // 1 2 3 4
 
-vector<int> a[1001];
-bool check[1001];
-
-void dfs(int node) {
-    check[node] = true;
-    printf("%d ",node);
-    
-    for(int i=0; i<a[node].size(); i++){
-        int next = a[node][i];
-        if(check[next] == false){
-            dfs(next);
-        }
-    }
-}
-
-void bfs(int start) {
-    memset(check,false,sizeof(check));
-    queue<int> q;
-    check[start] = true;
-    q.push(start);
-    
-    while(!q.empty()){
-        int node = q.front();
-        q.pop();
-        printf("%d ",node);
-        for(int i=0; i<a[node].size(); i++){
-            int next = a[node][i];
-            if(check[next] == false){
-                check[next] = true;
-                q.push(next);
-            }
-        }
-    }
-}
-
-
-int main() {
-    // 첫째 줄에 정점의 개수 N(1 ~ 1000), M(1 ~ 10000), 탐색시작할 점정의 번호, V가 주어진다.
-    int n,m,start;
-    scanf("%d %d %d",&n,&m,&start);
-    
-    // 그 다음 m개의 줄에는 간선이 연결하는 두 정점의 번호가 주어진다.
-    for(int i=0; i<m; i++){
-        int u,v;
-        scanf("%d %d",&u,&v);
-        // 양방향으로 정점간의 간선 정보를 추가한다.
-        a[u].push_back(v);
-        a[v].push_back(u);
-    }
-    
-    for(int i=0; i<n; i++){
-        sort(a[i].begin(), a[i].end());
-    }
-    
-    memset(check,false,sizeof(check));
-    dfs(start);
-    puts("");
-
-    memset(check,false,sizeof(check));
-    bfs(start);
-    puts("");
-    
-    return 0;
-}
-
-
+//vector<int> a[1001];
+//bool check[1001];
+//
+//void dfs(int node) {
+//    check[node] = true;
+//    printf("%d ",node);
+//
+//    for(int i=0; i<a[node].size(); i++){
+//        int next = a[node][i];
+//        if(check[next] == false){
+//            dfs(next);
+//        }
+//    }
+//}
+//
+//void bfs(int start) {
+//    memset(check,false,sizeof(check));
+//    queue<int> q;
+//    check[start] = true;
+//    q.push(start);
+//
+//    while(!q.empty()){
+//        int node = q.front();
+//        q.pop();
+//        printf("%d ",node);
+//        for(int i=0; i<a[node].size(); i++){
+//            int next = a[node][i];
+//            if(check[next] == false){
+//                check[next] = true;
+//                q.push(next);
+//            }
+//        }
+//    }
+//}
+//
+//
+//int main() {
+//    // 첫째 줄에 정점의 개수 N(1 ~ 1000), M(1 ~ 10000), 탐색시작할 점정의 번호, V가 주어진다.
+//    int n,m,start;
+//    scanf("%d %d %d",&n,&m,&start);
+//
+//    // 그 다음 m개의 줄에는 간선이 연결하는 두 정점의 번호가 주어진다.
+//    for(int i=0; i<m; i++){
+//        int u,v;
+//        scanf("%d %d",&u,&v);
+//        // 양방향으로 정점간의 간선 정보를 추가한다.
+//        a[u].push_back(v);
+//        a[v].push_back(u);
+//    }
+//
+//    for(int i=0; i<n; i++){
+//        sort(a[i].begin(), a[i].end());
+//    }
+//
+//    memset(check,false,sizeof(check));
+//    dfs(start);
+//    puts("");
+//
+//    memset(check,false,sizeof(check));
+//    bfs(start);
+//    puts("");
+//
+//    return 0;
+//}
 
 
 //
