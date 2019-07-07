@@ -6,6 +6,25 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// 알파벳 개수_10808
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#define endl "\n"
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    vector<int> cnt(26,0);
+//    string str; cin>>str;
+//    for(int i=0; i<str.length(); i++){
+//        int index=str[i]-97;
+//        cnt[index]++;
+//    }
+//    for(auto v : cnt) cout<<v<<" ";
+//    cout<<endl;
+//    return 0;
+//}
+
 //// 그룹단어체커_1316
 //#include <iostream>
 //#include <string>
