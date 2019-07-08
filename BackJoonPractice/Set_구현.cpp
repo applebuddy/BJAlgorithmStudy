@@ -5,6 +5,70 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// 직각삼각형_4153
+//#include <stdio.h>
+//#include <algorithm>
+//#include <cmath>
+//using namespace std;
+//int main(){
+//    while(1){
+//        int num[3]={0,};
+//        bool flag=false;
+//        for(int i=0; i<3; i++){
+//            scanf("%d",&num[i]);
+//            if(num[i]!=0) flag=true;
+//        }
+//        if(flag==false) break;
+//        sort(num,num+3);
+//        if(pow(num[0],2)+pow(num[1],2)==pow(num[2],2)) printf("right\n");
+//        else printf("wrong\n");
+//    }
+//}
+
+//// 콘테스트_5576
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//int main(){
+//    vector<int> peo(10,0);
+//    vector<int> Ans(2,0);
+//    for(int t=0; t<2; t++){
+//        for(int i=0; i<10; i++) scanf("%d",&peo[i]);
+//        sort(peo.begin(), peo.end(), greater<int>());
+//        for(int i=0; i<3; i++) Ans[t]+=peo[i];
+//    } for(int i=0; i<2; i++) printf("%d ",Ans[i]);
+//    printf("\n");
+//    return 0;
+//}
+
+//// 탄산 음료_5032
+//#include <iostream>
+//#define endl "\n"
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    int b1,b2,n,Ans=0;
+//    cin>>b1>>b2>>n;
+//    int b=b1+b2, B=0;
+//    while(1){
+//        if(b>=n){
+//            b-=n;
+//            B++;
+//        }else{
+//            if(B>=1){
+//                B--;
+//                b++;
+//                Ans++;
+//            }else{
+//                break;
+//            }
+//        }
+//    }
+//    cout<<Ans<<endl;
+//    return 0;
+//}
+
 //// 결혼식_5567
 //#include <iostream>
 //#include <vector>
