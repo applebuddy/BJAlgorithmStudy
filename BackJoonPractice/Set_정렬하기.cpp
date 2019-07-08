@@ -33,6 +33,52 @@
 //    for(auto p : vp) printf("%d %d\n",p.first,p.second);
 //}
 
+//// 욕심쟁이 판다_1937 ★DP문제
+//#include <iostream>
+//#include <queue>
+//#include <cmath>
+//#include <string.h>
+//#define endl "\n"
+//#define MAX 500
+//using namespace std;
+//typedef pair<int,int> Pair;
+//int Ans=0, N=0;
+//int dp[MAX][MAX];
+//int map[MAX][MAX];
+//
+//int tx[] = {0,0,-1,1};
+//int ty[] = {-1,1,0,0};
+//
+//int DP(int x, int y){
+//    if(dp[x][y]!=0) return dp[x][y];
+//    dp[x][y]=1;
+//    for(int i=0; i<4; i++){
+//        int nx=x+tx[i];
+//        int ny=y+ty[i];
+//        if(nx<0 || ny<0 || nx>=N || ny>=N) continue;
+//        if(map[nx][ny]<=map[x][y]) continue;
+//        dp[x][y]=max(dp[x][y],DP(nx,ny)+1);
+//    }
+//    return dp[x][y];
+//}
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    cin>>N;
+//    for(int i=0; i<N; i++){
+//        for(int j=0; j<N; j++){
+//            cin>>map[i][j];
+//        }
+//    }
+//    for(int i=0; i<N; i++){
+//        for(int j=0; j<N; j++){
+//            Ans=max(Ans,DP(i,j));
+//        }
+//    }
+//    cout << Ans << endl;
+//    return 0;
+//}
+
 //// 나이순 정렬_10814 * 튜플없이 다시 풀어보기
 //#include <iostream>
 //#include <vector>
