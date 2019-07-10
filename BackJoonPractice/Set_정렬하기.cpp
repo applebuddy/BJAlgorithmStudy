@@ -6,6 +6,59 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// ABC_3047
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//#include <string>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    vector<int> v(3,0); string str;
+//    cin>>v[0]>>v[1]>>v[2]; cin>>str;
+//    sort(v.begin(), v.end());
+//    for(int i=0; i<3; i++) printf("%d ",v[str[i]-'A']);
+//    printf("\n");
+//    return 0;
+//}
+
+//// 국영수_10825
+//#include <iostream>
+//#include <tuple>
+//#include <vector>
+//#include <algorithm>
+//#include <string>
+//using namespace std;
+//typedef tuple<string,int,int,int> Tuple;
+//
+//bool compare(const Tuple &a, const Tuple &b){
+//    if(get<1>(a)<get<1>(b)) return false;
+//    else if(get<1>(a)==get<1>(b)){
+//        if(get<2>(a)>get<2>(b)) return false;
+//        else if(get<2>(a)==get<2>(b)){
+//            if(get<3>(a)<get<3>(b)) return false;
+//            else if(get<3>(a)==get<3>(b)){
+//                if(get<0>(a)>=get<0>(b)) return false;
+//            }
+//        }
+//    }
+//    return true;
+//}
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int T; cin>>T;
+//    vector<Tuple> tp;
+//    while(T--){
+//        string name; int ko,en,ma;
+//        cin>>name>>ko>>en>>ma;
+//        tp.push_back(make_tuple(name,ko,en,ma));
+//    }
+//    sort(tp.begin(), tp.end(), compare);
+//    for(auto t : tp) printf("%s\n",get<0>(t).c_str());
+//    return 0;
+//}
+
 //// 좌표 정렬하기 2_11651
 //#include <iostream>
 //#include <vector>

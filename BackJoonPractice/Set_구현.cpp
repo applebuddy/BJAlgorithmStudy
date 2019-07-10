@@ -5,6 +5,41 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// 유니크_5533
+//#include <iostream>
+//#include <vector>
+//#define endl "\n"
+//using namespace std;
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    int N; cin>>N;
+//    vector<vector<int>> pv(N,vector<int>(3,0));
+//    for(int i=0; i<N; i++){
+//        for(int j=0; j<3; j++){
+//            cin>>pv[i][j];
+//        }
+//    }
+//    vector<int> Ans(N,0);
+//    for(int i=0; i<3; i++){
+//        for(int j=0; j<N; j++){
+//            bool flag=true;
+//            for(int k=0; k<N; k++){
+//                if(j!=k && pv[k][i]==pv[j][i]){
+//                flag=false;
+//                break;
+//                }
+//            }
+//            if(flag==true){
+//                Ans[j]+=pv[j][i];
+//            }
+//        }
+//    }
+//    for(int i=0; i<N; i++) cout<<Ans[i]<<endl;
+//
+//    return 0;
+//}
+
 //// 삼각 김밥_2783
 //#include <stdio.h>
 //#include <string.h>
