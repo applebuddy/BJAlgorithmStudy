@@ -12,7 +12,6 @@
 		3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3885E83322CB888500CC014D /* Set_BruteForce.cpp */; };
 		38B13E7A22CDD540005466EA /* Set_GRAPH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38B13E7822CDC58C005466EA /* Set_GRAPH.cpp */; };
 		38C0E79422D2FCD60040C60E /* Set_정렬하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E68DD222AD3FDC00F1EC94 /* Set_정렬하기.cpp */; };
-		38E630EB22D3A9BD0007E86E /* Set_구현.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BBAC7422C0CB1000ADC27D /* Set_구현.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -313,7 +312,6 @@
 				3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */,
 				38C0E79422D2FCD60040C60E /* Set_정렬하기.cpp in Sources */,
 				3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */,
-				38E630EB22D3A9BD0007E86E /* Set_구현.cpp in Sources */,
 				38B13E7A22CDD540005466EA /* Set_GRAPH.cpp in Sources */,
 				383BC33322CFB70400AF64B2 /* Set_문자열다루기.cpp in Sources */,
 			);

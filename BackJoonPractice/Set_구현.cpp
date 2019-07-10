@@ -5,6 +5,62 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// 삼각 김밥_2783
+//#include <stdio.h>
+//#include <string.h>
+//#include <cmath>
+//int main(){
+//    float X,Y,Ans=0; scanf("%f %f",&X,&Y);
+//    int O;
+//    Ans=X*(1000/Y);
+//    scanf("%d",&O);
+//    while(O--){
+//        float x,y; scanf("%f %f",&x,&y);
+//        Ans=fmin(Ans,x*(1000/y));
+//    }
+//    printf("%.2f\n",Ans);
+//    return 0;
+//}
+
+//// 직사각형을 만드는 방법
+//#include <stdio.h>
+//int main(){
+//    int N; scanf("%d",&N);
+//    int Ans=N, i=2;
+//    while(1){
+//        if((N/i-(i-1))>0) Ans+=(N/i-(i-1));
+//        else break;
+//        i++;
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 공약수_5618
+//#include <stdio.h>
+//int GCD(int a, int b){
+//    if(b==0) return a;
+//    return GCD(b,a%b);
+//}
+//int main(){
+//    int N; scanf("%d",&N);
+//    int n1,n2,n3,max;
+//    if(N==2){
+//        scanf("%d %d",&n1,&n2);
+//        max=GCD(n1,n2);
+//        for(int i=1; i<=max; i++){
+//            if(n1%i==0 && n2%i==0) printf("%d\n",i);
+//        }
+//    }else{
+//        scanf("%d %d %d",&n1,&n2,&n3);
+//        max=GCD(GCD(n1,n2),n3);
+//        for(int i=1; i<=max; i++){
+//            if(n1%i==0 && n2%i==0 && n3%i==0) printf("%d\n",i);
+//        }
+//    }
+//    return 0;
+//}
+
 //// 직각삼각형_4153
 //#include <stdio.h>
 //#include <algorithm>
