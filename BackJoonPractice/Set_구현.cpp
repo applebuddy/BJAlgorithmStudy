@@ -5,6 +5,51 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// 수빈이와 수열_10539
+//#include <stdio.h>
+//using namespace std;
+//int Ans[101]={0,};
+//int Res[101]={0,};
+//int main(){
+//    int T; scanf("%d",&T);
+//    for(int i=1; i<T+1; i++) scanf("%d",&Ans[i]);
+//    Res[1]=Ans[1];
+//    for(int i=2; i<=T; i++){
+//        int sum=0;
+//        for(int j=1; j<=i; j++) sum+=Res[j];
+//        Res[i]=Ans[i]*i-sum;
+//    }
+//    for(int i=1; i<=T; i++) printf("%d ",Res[i]);
+//    return 0;
+//}
+
+//// 크로스워드 만들기 X_X
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    string s1,s2; int x=0,y=0;
+//    cin>>s1>>s2;
+//    for(int i=0; i<(int)s2.length(); i++){
+//        string::size_type st=s1.find(s2[i]);
+//        if(st!=string::npos){
+//            x=(int)st;
+//            y=i;
+//            break;
+//        }
+//    }
+//    for(int j=0; j<(int)s2.length(); j++){
+//        for(int i=0; i<(int)s1.length(); i++){
+//            if(i==x) printf("%c",s2[j]);
+//            else if(j==y) printf("%c",s1[i]);
+//            else printf(".");
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+
 //// 유니크_5533
 //#include <iostream>
 //#include <vector>
