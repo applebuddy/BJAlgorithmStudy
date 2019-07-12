@@ -5,6 +5,51 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// 캔디구매_2909
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    double N; int St; scanf("%lf %d",&N,&St);
+//    printf("%d\n",(int)(round(N/pow(10,St))*pow(10,St)));
+//    return 0;
+//}
+
+//// 서버_10409
+//#include <stdio.h>
+//int main(){
+//    int N,T,sum=0,Ans=0; scanf("%d %d",&N,&T);
+//    while(N--){
+//        int t;
+//        scanf("%d",&t);
+//        sum+=t;
+//        if(sum>T) break;
+//        else Ans++;
+//    } printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// Starman_12791
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//using namespace std;
+//vector<pair<int,string>> pv={{1967,"DavidBowie"},{1969,"SpaceOddity"},{1970,"TheManWhoSoldTheWorld"},{1971,"HunkyDory"},{1972,"TheRiseAndFallOfZiggyStardustAndTheSpidersFromMars"},{1973,"AladdinSane"},{1973,"PinUps"},{1974,"DiamondDogs"},{1975,"YoungAmericans"},{1976,"StationToStation"},{1977,"Low"},{1977,"Heroes"},{1979,"Lodger"},{1980,"ScaryMonstersAndSuperCreeps"},{1983,"LetsDance"},{1984,"Tonight"},{1987,"NeverLetMeDown"},{1993,"BlackTieWhiteNoise"},{1995,"1.Outside"},{1997,"Earthling"},{1999,"Hours"},{2002,"Heathen"},{2003,"Reality"},{2013,"TheNextDay"},{2016,"BlackStar"}};
+//int main(){
+//    int T; scanf("%d",&T);
+//    while(T--){
+//        int First,Last; scanf("%d %d",&First,&Last);
+//        vector<pair<int,string>> Ans; int cnt=0;
+//        for(auto v : pv){
+//            if(First<=v.first && v.first<=Last) {
+//                cnt++;
+//                Ans.push_back({v.first,v.second});
+//            }
+//        } printf("%d\n",cnt);
+//        for(auto v : Ans) printf("%d %s\n",v.first,v.second.c_str());
+//    }
+//    return 0;
+//}
+
 //// 수빈이와 수열_10539
 //#include <stdio.h>
 //using namespace std;
@@ -23,7 +68,7 @@
 //    return 0;
 //}
 
-//// 크로스워드 만들기 X_X
+//// 크로스워드 만들기 X_X -> 실행과정 이해가 필요
 //#include <iostream>
 //#include <string>
 //using namespace std;
@@ -31,11 +76,11 @@
 //    ios_base :: sync_with_stdio(0); cin.tie(0);
 //    string s1,s2; int x=0,y=0;
 //    cin>>s1>>s2;
-//    for(int i=0; i<(int)s2.length(); i++){
-//        string::size_type st=s1.find(s2[i]);
+//    for(int i=0; i<(int)s1.length(); i++){
+//        string::size_type st=s2.find(s1[i]);
 //        if(st!=string::npos){
-//            x=(int)st;
-//            y=i;
+//            y=(int)st;
+//            x=i;
 //            break;
 //        }
 //    }
