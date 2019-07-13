@@ -5,6 +5,23 @@
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 
+//// POT_11772
+//#include <iostream>
+//#include <cmath>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int N,Ans=0; cin>>N;
+//    while(N--){
+//        int n; cin>>n;
+//        int t=n%10;
+//        n/=10;
+//        Ans+=pow(n,t);
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
 //// 캔디구매_2909
 //#include <stdio.h>
 //#include <cmath>
