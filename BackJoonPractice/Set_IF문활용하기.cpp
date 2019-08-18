@@ -6,29 +6,49 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-//// 더하기 사이클_1110
-#include <stdio.h>
+//// 윤년_2753
+//#include <stdio.h>
+//int main(){
+//    int N;
+//    scanf("%d",&N);
+//    if((N%400==0) || ((N%4==0)&&(N%100!=0))) printf("%d\n",1);
+//    else printf("%d\n",0);
+//    return 0;
+//}
 
-int main(){
-    int N,n1,n2,ans=0;
-    scanf("%d",&N);
-    n1=N;
-    n2=N;
-    while(1){
-        int sum=0;
-        while(n2>0){
-            sum+=n2%10;
-            n2/=10;
-        }
-        n2=(n1%10)*10+sum%10;
-        ans++;
-        if(N==n2) break;
-        else n1=n2;
-    }
-    
-    printf("%d\n",ans);
-    return 0;
-}
+//// 두 수 비교하기_1330
+//#include <stdio.h>
+//int main(){
+//    int A,B;
+//    scanf("%d %d",&A,&B);
+//    if(A==B) printf("==\n");
+//    else A>B ? printf(">\n") : printf("<\n");
+//    return 0;
+//}
+
+////// 더하기 사이클_1110
+//#include <stdio.h>
+//
+//int main(){
+//    int N,n1,n2,ans=0;
+//    scanf("%d",&N);
+//    n1=N;
+//    n2=N;
+//    while(1){
+//        int sum=0;
+//        while(n2>0){
+//            sum+=n2%10;
+//            n2/=10;
+//        }
+//        n2=(n1%10)*10+sum%10;
+//        ans++;
+//        if(N==n2) break;
+//        else n1=n2;
+//    }
+//
+//    printf("%d\n",ans);
+//    return 0;
+//}
 
 //// 평균은 넘겠지
 //#include <stdio.h>

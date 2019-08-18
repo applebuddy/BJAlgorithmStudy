@@ -553,22 +553,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BackJoonPractice/Set_&#x110c;&#x1165;&#x11bc;&#x1105;&#x1167;&#x11af;&#x1112;&#x1161;&#x1100;&#x1175;.cpp"
-            timestampString = "581789802.017195"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "main()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "BackJoonPractice/SortingMethod_QuickSort.cpp"
             timestampString = "581884131.65566"
             startingColumnNumber = "9223372036854775807"

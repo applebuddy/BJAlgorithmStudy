@@ -4,9 +4,434 @@
 //
 //  Created by Min Kyeong Tae on 24/06/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
+
+//// POT_11772
+//#include <iostream>
+//#include <cmath>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int N,Ans=0; cin>>N;
+//    while(N--){
+//        int n; cin>>n;
+//        int t=n%10;
+//        n/=10;
+//        Ans+=pow(n,t);
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 캔디구매_2909
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    double N; int St; scanf("%lf %d",&N,&St);
+//    printf("%d\n",(int)(round(N/pow(10,St))*pow(10,St)));
+//    return 0;
+//}
+
+//// 서버_10409
+//#include <stdio.h>
+//int main(){
+//    int N,T,sum=0,Ans=0; scanf("%d %d",&N,&T);
+//    while(N--){
+//        int t;
+//        scanf("%d",&t);
+//        sum+=t;
+//        if(sum>T) break;
+//        else Ans++;
+//    } printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// Starman_12791
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//using namespace std;
+//vector<pair<int,string>> pv={{1967,"DavidBowie"},{1969,"SpaceOddity"},{1970,"TheManWhoSoldTheWorld"},{1971,"HunkyDory"},{1972,"TheRiseAndFallOfZiggyStardustAndTheSpidersFromMars"},{1973,"AladdinSane"},{1973,"PinUps"},{1974,"DiamondDogs"},{1975,"YoungAmericans"},{1976,"StationToStation"},{1977,"Low"},{1977,"Heroes"},{1979,"Lodger"},{1980,"ScaryMonstersAndSuperCreeps"},{1983,"LetsDance"},{1984,"Tonight"},{1987,"NeverLetMeDown"},{1993,"BlackTieWhiteNoise"},{1995,"1.Outside"},{1997,"Earthling"},{1999,"Hours"},{2002,"Heathen"},{2003,"Reality"},{2013,"TheNextDay"},{2016,"BlackStar"}};
+//int main(){
+//    int T; scanf("%d",&T);
+//    while(T--){
+//        int First,Last; scanf("%d %d",&First,&Last);
+//        vector<pair<int,string>> Ans; int cnt=0;
+//        for(auto v : pv){
+//            if(First<=v.first && v.first<=Last) {
+//                cnt++;
+//                Ans.push_back({v.first,v.second});
+//            }
+//        } printf("%d\n",cnt);
+//        for(auto v : Ans) printf("%d %s\n",v.first,v.second.c_str());
+//    }
+//    return 0;
+//}
+
+//// 수빈이와 수열_10539
+//#include <stdio.h>
+//using namespace std;
+//int Ans[101]={0,};
+//int Res[101]={0,};
+//int main(){
+//    int T; scanf("%d",&T);
+//    for(int i=1; i<T+1; i++) scanf("%d",&Ans[i]);
+//    Res[1]=Ans[1];
+//    for(int i=2; i<=T; i++){
+//        int sum=0;
+//        for(int j=1; j<=i; j++) sum+=Res[j];
+//        Res[i]=Ans[i]*i-sum;
+//    }
+//    for(int i=1; i<=T; i++) printf("%d ",Res[i]);
+//    return 0;
+//}
+
+//// 크로스워드 만들기 X_X -> 실행과정 이해가 필요
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    string s1,s2; int x=0,y=0;
+//    cin>>s1>>s2;
+//    for(int i=0; i<(int)s1.length(); i++){
+//        string::size_type st=s2.find(s1[i]);
+//        if(st!=string::npos){
+//            y=(int)st;
+//            x=i;
+//            break;
+//        }
+//    }
+//    for(int j=0; j<(int)s2.length(); j++){
+//        for(int i=0; i<(int)s1.length(); i++){
+//            if(i==x) printf("%c",s2[j]);
+//            else if(j==y) printf("%c",s1[i]);
+//            else printf(".");
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+
+//// 유니크_5533
+//#include <iostream>
+//#include <vector>
+//#define endl "\n"
+//using namespace std;
 //
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    int N; cin>>N;
+//    vector<vector<int>> pv(N,vector<int>(3,0));
+//    for(int i=0; i<N; i++){
+//        for(int j=0; j<3; j++){
+//            cin>>pv[i][j];
+//        }
+//    }
+//    vector<int> Ans(N,0);
+//    for(int i=0; i<3; i++){
+//        for(int j=0; j<N; j++){
+//            bool flag=true;
+//            for(int k=0; k<N; k++){
+//                if(j!=k && pv[k][i]==pv[j][i]){
+//                flag=false;
+//                break;
+//                }
+//            }
+//            if(flag==true){
+//                Ans[j]+=pv[j][i];
+//            }
+//        }
+//    }
+//    for(int i=0; i<N; i++) cout<<Ans[i]<<endl;
+//
+//    return 0;
+//}
 
+//// 삼각 김밥_2783
+//#include <stdio.h>
+//#include <string.h>
+//#include <cmath>
+//int main(){
+//    float X,Y,Ans=0; scanf("%f %f",&X,&Y);
+//    int O;
+//    Ans=X*(1000/Y);
+//    scanf("%d",&O);
+//    while(O--){
+//        float x,y; scanf("%f %f",&x,&y);
+//        Ans=fmin(Ans,x*(1000/y));
+//    }
+//    printf("%.2f\n",Ans);
+//    return 0;
+//}
 
+//// 직사각형을 만드는 방법
+//#include <stdio.h>
+//int main(){
+//    int N; scanf("%d",&N);
+//    int Ans=N, i=2;
+//    while(1){
+//        if((N/i-(i-1))>0) Ans+=(N/i-(i-1));
+//        else break;
+//        i++;
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 공약수_5618
+//#include <stdio.h>
+//int GCD(int a, int b){
+//    if(b==0) return a;
+//    return GCD(b,a%b);
+//}
+//int main(){
+//    int N; scanf("%d",&N);
+//    int n1,n2,n3,max;
+//    if(N==2){
+//        scanf("%d %d",&n1,&n2);
+//        max=GCD(n1,n2);
+//        for(int i=1; i<=max; i++){
+//            if(n1%i==0 && n2%i==0) printf("%d\n",i);
+//        }
+//    }else{
+//        scanf("%d %d %d",&n1,&n2,&n3);
+//        max=GCD(GCD(n1,n2),n3);
+//        for(int i=1; i<=max; i++){
+//            if(n1%i==0 && n2%i==0 && n3%i==0) printf("%d\n",i);
+//        }
+//    }
+//    return 0;
+//}
+
+//// 직각삼각형_4153
+//#include <stdio.h>
+//#include <algorithm>
+//#include <cmath>
+//using namespace std;
+//int main(){
+//    while(1){
+//        int num[3]={0,};
+//        bool flag=false;
+//        for(int i=0; i<3; i++){
+//            scanf("%d",&num[i]);
+//            if(num[i]!=0) flag=true;
+//        }
+//        if(flag==false) break;
+//        sort(num,num+3);
+//        if(pow(num[0],2)+pow(num[1],2)==pow(num[2],2)) printf("right\n");
+//        else printf("wrong\n");
+//    }
+//}
+
+//// 콘테스트_5576
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//int main(){
+//    vector<int> peo(10,0);
+//    vector<int> Ans(2,0);
+//    for(int t=0; t<2; t++){
+//        for(int i=0; i<10; i++) scanf("%d",&peo[i]);
+//        sort(peo.begin(), peo.end(), greater<int>());
+//        for(int i=0; i<3; i++) Ans[t]+=peo[i];
+//    } for(int i=0; i<2; i++) printf("%d ",Ans[i]);
+//    printf("\n");
+//    return 0;
+//}
+
+//// 탄산 음료_5032
+//#include <iostream>
+//#define endl "\n"
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    int b1,b2,n,Ans=0;
+//    cin>>b1>>b2>>n;
+//    int b=b1+b2, B=0;
+//    while(1){
+//        if(b>=n){
+//            b-=n;
+//            B++;
+//        }else{
+//            if(B>=1){
+//                B--;
+//                b++;
+//                Ans++;
+//            }else{
+//                break;
+//            }
+//        }
+//    }
+//    cout<<Ans<<endl;
+//    return 0;
+//}
+
+//// 결혼식_5567
+//#include <iostream>
+//#include <vector>
+//#include <queue>
+//#define endl "\n"
+//using namespace std;
+//vector<int> v[501];
+//vector<int> c(501,0);
+//int Ans=0;
+//
+//void BFS(int n){
+//    queue<int> q;
+//    q.push(n);
+//    c[n]=1;
+//    while(!q.empty()){
+//        int node = q.front();
+//        q.pop();
+//        for(int i=0; i<v[node].size(); i++){
+//            int next=v[node][i];
+//            if(c[next]==0){
+//                c[next]=c[node]+1;
+//                if(c[next]==2 || c[next]==3) Ans++;
+//                q.push(next);
+//            }
+//        }
+//    }
+//}
+//
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int N,M;
+//    cin>>N>>M;
+//    for(int i=0; i<M; i++){
+//        int n,m; cin>>n>>m;
+//        v[n].push_back(m);
+//        v[m].push_back(n);
+//    }
+//    BFS(1); printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 앵그리 창영_3034
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    int N,W,H,R;
+//    scanf("%d %d %d",&N,&W,&H);
+//    R=(int)sqrt(pow(W,2)+pow(H,2));
+//    for(int i=0; i<N; i++){
+//        int t; scanf("%d",&t);
+//        if(t<=R) printf("DA\n");
+//        else printf("NE\n");
+//    }
+//    return 0;
+//}
+
+//// 슈퍼마리오_2851
+//#include <stdio.h>
+//#include <cmath>
+//int main(){
+//    int M[10]={0,};
+//    int Ans=0;
+//    for(int i=0; i<10; i++) scanf("%d",&M[i]);
+//    for(int i=0; i<10; i++) {
+//        int now=fabs(100-Ans),next=fabs(100-(Ans+M[i]));
+//        if(now >= next) Ans+=M[i];
+//        else { printf("%d\n",Ans); return 0; }
+//    }
+//    printf("%d\n",Ans);
+//    return 0;
+//}
+
+//// 시험점수_5596
+//#include <stdio.h>
+//int main(){
+//    int min=0,man=0,a,b;
+//    for(int i=0; i<4; i++) { scanf("%d",&a); min+=a; }
+//    for(int i=0; i<4; i++) { scanf("%d",&b); man+=b; }
+//    printf("%d\n",min>man ? min : man);
+//    return 0;
+//}
+
+//// 내 학점을 구해줘_10984
+//#include <stdio.h>
+//int main(){
+//    int T;
+//    scanf("%d",&T);
+//    while(T--){
+//        int t;
+//        int C=0;
+//        double G=0;
+//        scanf("%d",&t);
+//        while(t--){
+//            int c;
+//            double g;
+//            scanf("%d %lf",&c,&g);
+//            C+=c; G+=c*g;
+//        }
+//        printf("%d %.1lf\n",(int)C,G/C);
+//    }
+//    return 0;
+//}
+
+//// 소음_2935
+//#include <iostream>
+//#include <string>
+//#define endl "\n"
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    string s1,s2;
+//    char m;
+//    cin >> s1 >> m >> s2;
+//    if(s1<s2){
+//        string temp = s1;
+//        s1 = s2;
+//        s2 = temp;
+//    }
+//    if(m=='*') {
+//        for(int i=0; i<(int)s2.length()-1; i++){
+//            s1+="0";
+//        }
+//    }
+//    else {
+//        if(s1.length()==s2.length()) s1[0]='2';
+//        else s1[s1.length()-s2.length()]='1';
+//    }
+//    cout << s1 << endl;
+//}
+
+//// Mini Fantasy War_12790
+//#include <stdio.h>
+//int main(){
+//    int T;
+//    scanf("%d",&T);
+//    while(T--){
+//        int a[8]={0,};
+//        int Ans=0;
+//        for(int i=0; i<8; i++) scanf("%d",&a[i]);
+//        int HP=a[0]+a[4],MP=a[1]+a[5],Atk=a[2]+a[6],Def=a[3]+a[7];
+//        if(HP<=1) HP=1;
+//        if(MP<=1) MP=1;
+//        if(Atk<=0) Atk=0;
+//        Ans=HP+5*MP+2*Atk+2*Def;
+//        printf("%d\n",Ans);
+//    }
+//}
+
+//// 저울_2437
+//#include <stdio.h>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//int main() {
+//    int t,sum=0;
+//    scanf("%d",&t);
+//    vector<int> vec(t,0);
+//    for(int i=0; i<t; i++) scanf("%d",&vec[i]);
+//    sort(vec.begin(),vec.end());
+//    for(int i=0; i<t; i++){
+//        if(sum<vec[i]-1) break;
+//        sum+=vec[i];
+//    }
+//    printf("%d\n",sum+1);
+//}
 
 //// 농구 경기_1159
 //#include <iostream>

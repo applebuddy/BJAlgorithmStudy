@@ -6,6 +6,60 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+//// A+B - 8_11022
+//#include <stdio.h>
+//int main(){
+//    int T; scanf("%d",&T);
+//    for(int i=0; i<T; i++){
+//        int a,b; scanf("%d %d",&a,&b);
+//        printf("Case #%d: %d + %d = %d\n",i+1,a,b,a+b);
+//    }
+//    return 0;
+//}
+
+//// A+B - 7_11021
+//#include <stdio.h>
+//int main(){
+//    int T; scanf("%d",&T);
+//    for(int i=0; i<T; i++){
+//        int a,b; scanf("%d %d",&a,&b);
+//        printf("Case #%d: %d\n",i+1,a+b);
+//    }
+//    return 0;
+//}
+
+//// A+B -3_10950
+//#include <stdio.h>
+//int main(){
+//    int T; scanf("%d",&T);
+//    while(T--){
+//        int a,b; scanf("%d %d",&a,&b);
+//        printf("%d\n",a+b);
+//    }
+//    return 0;
+//}
+
+//// 빠른 A+B_15552
+//#include <stdio.h>
+//int main(){
+//    int T; scanf("%d",&T);
+//    while(T--){
+//        int a,b; scanf("%d %d",&a,&b);
+//        printf("%d\n",a+b);
+//    }
+//}
+// OR
+//#include <iostream>
+//using namespace std;
+//int main(){
+//    ios_base :: sync_with_stdio(0); cin.tie(0); cout.tie(0);
+//    int T; cin>>T;
+//    for(int i=0; i<T; i++){
+//        int a,b; cin>>a>>b;
+//        cout<<a+b<<endl;
+//    }
+//    return 0;
+//}
 
 
 
