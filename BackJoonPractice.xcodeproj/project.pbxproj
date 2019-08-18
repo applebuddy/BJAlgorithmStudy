@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0731599523092FDC0056D391 /* ExampleProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0731599423092FDC0056D391 /* ExampleProblem.cpp */; };
+		0731599923094FC30056D391 /* OtherAlgorithmStudy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0731599823094FC30056D391 /* OtherAlgorithmStudy.cpp */; };
 		3802E68922D611FD000F251D /* Set_구현.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BBAC7422C0CB1000ADC27D /* Set_구현.cpp */; };
 		3802E69622DA2FFF000F251D /* Set_IuputOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384F5A9722A7D991008C67F5 /* Set_IuputOutput.cpp */; };
 		3802E69822DC8ADB000F251D /* 플로이드 와샬 알고리즘.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3802E69722DC8ADB000F251D /* 플로이드 와샬 알고리즘.cpp */; };
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0731599423092FDC0056D391 /* ExampleProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleProblem.cpp; sourceTree = "<group>"; };
+		0731599823094FC30056D391 /* OtherAlgorithmStudy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OtherAlgorithmStudy.cpp; sourceTree = "<group>"; };
 		3802E69722DC8ADB000F251D /* 플로이드 와샬 알고리즘.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "플로이드 와샬 알고리즘.cpp"; sourceTree = "<group>"; };
 		3809EFB222C8BC9A0064A9E5 /* Set_Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Set_Stack.cpp; sourceTree = "<group>"; };
 		3809EFB722C8DE380064A9E5 /* Set_While문활용하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Set_While문활용하기.cpp"; sourceTree = "<group>"; };
@@ -161,9 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				38BA6197226738F30021B684 /* backjoonAlgorithm.cpp */,
-				0731599423092FDC0056D391 /* ExampleProblem.cpp */,
 				3802E69722DC8ADB000F251D /* 플로이드 와샬 알고리즘.cpp */,
 				38191E1822AF9D1B00D5D986 /* 카탈린수ExamCollection_{([])}.cpp */,
+				0731599823094FC30056D391 /* OtherAlgorithmStudy.cpp */,
 				38BBAC7422C0CB1000ADC27D /* Set_구현.cpp */,
 				38B13E7822CDC58C005466EA /* Set_GRAPH.cpp */,
 				384F5A9722A7D991008C67F5 /* Set_IuputOutput.cpp */,
@@ -320,9 +320,9 @@
 			files = (
 				3885E83222CB259900CC014D /* Set_Func활용하기.cpp in Sources */,
 				38C0E79422D2FCD60040C60E /* Set_정렬하기.cpp in Sources */,
-				0731599523092FDC0056D391 /* ExampleProblem.cpp in Sources */,
 				3802E69822DC8ADB000F251D /* 플로이드 와샬 알고리즘.cpp in Sources */,
 				3885E83422CB888500CC014D /* Set_BruteForce.cpp in Sources */,
+				0731599923094FC30056D391 /* OtherAlgorithmStudy.cpp in Sources */,
 				3802E68922D611FD000F251D /* Set_구현.cpp in Sources */,
 				38B13E7A22CDD540005466EA /* Set_GRAPH.cpp in Sources */,
 				383BC33322CFB70400AF64B2 /* Set_문자열다루기.cpp in Sources */,

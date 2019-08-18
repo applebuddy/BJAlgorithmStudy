@@ -23,7 +23,7 @@ int getScore(const string &s){
             stk.push(s[i]);
             cnt++;
         }
-       
+        
         else if(s[i]==')' || s[i]==']'){
             if(stk.empty() || c[stk.top()]!=s[i]) return 0;
             arr[cnt] += d[s[i]]*max(1,arr[cnt+1]);
