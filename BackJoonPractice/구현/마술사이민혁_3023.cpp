@@ -25,8 +25,7 @@
 
 using namespace std;
 
-int main() {
-    ios_base::sync_with_stdio(0); cin.tie(0);
+void magicianMinHyeok() {
     int N,M,X,Y; cin>>N>>M;
     vector<vector<char>> P(N,vector<char>(M,0));
     for(int i=0; i<N; i++) {
@@ -56,5 +55,11 @@ int main() {
         }
         printf("\n");
     }
-    return 0;
+    return;
 }
+
+//int main() {
+//    ios_base::sync_with_stdio(0); cin.tie(0);
+//    magicianMinHyeok();
+//    return 0;
+//}
