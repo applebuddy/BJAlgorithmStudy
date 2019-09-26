@@ -46,7 +46,7 @@ void christmasParty() {
     for(auto v : SUM) printf("%d\n",v);
 }
 
-int main() {
-    christmasParty();
-    return 0;
-}
+//int main() {
+//    christmasParty();
+//    return 0;
+//}
