@@ -16,7 +16,7 @@ using namespace std;
 string trainPassengers() {
     ios_base :: sync_with_stdio(0); cin.tie(0);
     int C,N; cin>>C>>N;
-
+    
     int P=0;
     for(int i=0; i<N; i++) {
         int l,e,r;
@@ -33,8 +33,8 @@ string trainPassengers() {
     return "possible";
 }
 
-int main() {
-    string Ans = trainPassengers();
-    printf("%s\n",Ans.c_str());
-    return 0;
-}
+//int main() {
+//    string Ans = trainPassengers();
+//    printf("%s\n",Ans.c_str());
+//    return 0;
+//}
