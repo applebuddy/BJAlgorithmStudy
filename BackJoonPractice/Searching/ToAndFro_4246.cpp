@@ -38,8 +38,8 @@ void toAndFro() {
     return;
 }
 
-int main() {
-    ios_base :: sync_with_stdio(0); cin.tie(0);
-    toAndFro();
-    return 0;
-}
+//int main() {
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    toAndFro();
+//    return 0;
+//}

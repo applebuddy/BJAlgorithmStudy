@@ -40,8 +40,8 @@ void countDoubleNumbers() {
     return;
 }
 
-int main() {
-    countDoubleNumbers();
-    return 0;
-}
+//int main() {
+//    countDoubleNumbers();
+//    return 0;
+//}
 
