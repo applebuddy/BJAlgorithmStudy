@@ -53,8 +53,8 @@ void passwordChecking() {
     return;
 }
 
-int main() {
-    ios_base :: sync_with_stdio(0); cin.tie(0);
-    passwordChecking();
-    return 0;
-}
+//int main() {
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    passwordChecking();
+//    return 0;
+//}
