@@ -1,30 +1,30 @@
 //
-//  그릇_7567.cpp
+//  사과_10833.cpp
 //  BackJoonPractice
 //
 //  Created by MinKyeongTae on 04/10/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+/// MARK: - 사과_10833
+
 #include <iostream>
-#include <string>
 using namespace std;
 
-void bowl() {
-    string S=""; cin>>S;
-
-    int Ans=10;
-    for(int i=1; i<(int)S.length(); i++) {
-        if(S[i-1]!=S[i]) Ans+=10;
-        else Ans+=5;
+int theApple() {
+    int N,Ans=0;
+    cin>>N;
+    while(N--) {
+        int a,n; cin>>a>>n;
+        Ans+=n%a;
     }
     
-    printf("%d\n",Ans);
-    return;
+    return Ans;
 }
 
 //int main() {
 //    ios_base :: sync_with_stdio(0); cin.tie(0);
-//    bowl();
+//    int Ans = theApple();
+//    printf("%d\n",Ans);
 //    return 0;
 //}
