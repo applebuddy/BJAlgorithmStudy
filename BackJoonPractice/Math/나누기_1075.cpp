@@ -21,8 +21,7 @@
 #include <string>
 using namespace std;
 
-int main() {
-    ios_base :: sync_with_stdio(0); cin.tie(0);
+void theDivision() {
     int N,F; cin>>N>>F;
     N = (N/100)*100;
     int residue = N%F;
@@ -33,5 +32,11 @@ int main() {
         temp = temp.substr(temp.length()-2);
         printf("%02d\n",stoi(temp));
     }
-    return 0;
+    return;
 }
+
+//int main() {
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    theDivision();
+//    return 0;
+//}
