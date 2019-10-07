@@ -61,10 +61,11 @@ void redrawingChaseBoard() {
     printf("%d\n",Ans);
     return;
 }
-int main() {
-    ios_base::sync_with_stdio(0); cin.tie(0);
-    redrawingChaseBoard();
-    return 0;
-}
+
+//int main() {
+//    ios_base::sync_with_stdio(0); cin.tie(0);
+//    redrawingChaseBoard();
+//    return 0;
+//}
 
 
