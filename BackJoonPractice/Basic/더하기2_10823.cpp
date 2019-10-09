@@ -34,7 +34,7 @@ void thePlusTwo() {
     return;
 }
 
-int main() {
-    thePlusTwo();
-    return 0;
-}
+//int main() {
+//    thePlusTwo();
+//    return 0;
+//}
