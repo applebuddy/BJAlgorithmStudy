@@ -24,8 +24,8 @@ void theGodOfParking() {
     }
     return;
 }
-
-int main() {
-    theGodOfParking();
-    return 0;
-}
+//
+//int main() {
+//    theGodOfParking();
+//    return 0;
+//}
