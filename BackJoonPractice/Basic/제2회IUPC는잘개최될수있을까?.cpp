@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 제2회 IUPC는 잘 개최될 수 있을까?_12788
-#if 1
+#if 0
 #include <iostream>
 #include <string.h>
 #include <algorithm>
