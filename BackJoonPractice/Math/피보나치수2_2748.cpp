@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 피보나치수2_2748
-
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -27,3 +27,5 @@ long long getFibonachiNumber(long long n) {
 //    printf("%lld\n",Ans);
 //    return 0;
 //}
+
+#endif
