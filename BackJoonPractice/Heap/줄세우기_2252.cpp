@@ -16,7 +16,7 @@ using namespace std;
 int C[32001] = {0,};
 vector<int> G[32001];
 
-void theLining() {
+void theTopologicalSorting() {
     int N,M; cin>>N>>M;
     queue<int> Q;
     for(int i=0; i<M; i++) {
