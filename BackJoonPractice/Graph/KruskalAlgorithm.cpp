@@ -7,11 +7,8 @@
 //
 
 /// MARK: - Kruskal Algorithm : MST Algorithm
-<<<<<<< Updated upstream
 
-=======
 #if 0
->>>>>>> Stashed changes
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -94,8 +91,4 @@ int main() {
     
     return 0;
 }
-<<<<<<< Updated upstream
-
-=======
 #endif
->>>>>>> Stashed changes
