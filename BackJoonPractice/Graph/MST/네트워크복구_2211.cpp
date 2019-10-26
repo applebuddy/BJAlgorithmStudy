@@ -6,70 +6,149 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-
-// ✭ 다익스트라 알고리즘 공부가 필요할듯 ..
+/// MARK: - 네트워크복구_2211
 #if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <queue>
 using namespace std;
 typedef pair<int,int> Pair;
 
-class Edge {
+class Compare {
 public:
-    int node[2];
-    int weight;
-    Edge(int from, int to, int weight) {
-        this->node[0] = from;
-        this->node[1] = to;
-        this->weight = weight;
+    template <class T = Pair>
+    bool operator() (T &a, T& b) {
+        return a.second>b.second;
     }
 };
 
-int getParent(vector<int> &node, int N) {
-    if(node[N]==N) return N;
-    else return getParent(node, node[N]);
-}
+vector<Pair> PV[1001];
+vector<int> Ans(1001,0);
+vector<int> DV(1001,1000000000);
 
-void mergeParent(vector<int> &node, int A, int B) {
-    A = getParent(node, A);
-    B = getParent(node, B);
-    if(A<B) node[B]=A;
-    else node[A]=B;
+void dijkstra(int start) {
+    
+    priority_queue<Pair,vector<Pair>,Compare> PQ;
+    PQ.push({start,0});
+    DV[1]=0;
+    while(!PQ.empty()) {
+        int distance = PQ.top().second;
+        int current = PQ.top().first;
+        PQ.pop();
+        if(DV[current] < distance) continue;
+        for(int i=0; i<PV[current].size(); i++) {
+            int next = PV[current][i].first;
+            int nextDistance = distance + PV[current][i].second;
+            if(nextDistance < DV[next]) {
+                Ans[next] = current;
+                DV[next] = nextDistance;
+                PQ.push({next, nextDistance});
+            }
+        }
+    }
 }
 
 int main() {
     ios_base :: sync_with_stdio(0); cin.tie(0);
     int V,E; cin>>V>>E;
+
     vector<int> P(V,0);
     for(int i=0; i<V; i++) P[i]=i;
-    vector<Edge> EV;
+
     for(int i=0; i<E; i++) {
         int from,to,weight;
         cin>>from>>to>>weight;
-        EV.push_back(Edge(from,to,weight));
+        PV[from].push_back({to,weight});
+        PV[to].push_back({from,weight});
     }
-    
-    sort(EV.begin(), EV.end(), [](Edge &a, Edge &b) {
-        return a.weight < b.weight;
-    });
-    
-    int CNT=0, IDX=0;
-    vector<Pair> Ans;
-    while(CNT != V-1) {
-        int from = EV[IDX].node[0]-1;
-        int to = EV[IDX].node[1]-1;
-        if(getParent(P,from) != getParent(P,to)) {
-            Ans.push_back({from+1,to+1});
-            mergeParent(P, from, to);
-            CNT++;
-        }
-        IDX++;
+
+    dijkstra(1);
+
+    printf("%d\n",V-1);
+    for(int i=2; i<=V; i++) {
+        printf("%d %d\n",Ans[i],i);
     }
-    
-    printf("%d\n",(int)Ans.size());
-    for(auto v: Ans) printf("%d %d\n",v.first,v.second);
-    puts("");
     return 0;
 }
 #endif
+
+/// MARK: - 다른 분 풀이 답안; dijkstra Algorithm 사용 
+//#include <iostream>
+//#include <cstdio>
+//#include <vector>
+//#include <queue>
+//#include <functional>
+//
+//#define INF 987654321
+//
+//using namespace std;
+//
+//typedef pair<int, int> pii;
+//
+//vector<pii> vc[1001];
+//int dist[1001];
+//int parent[1001];
+//
+//int main()
+//{
+//    int V,E;
+//    scanf("%d %d", &V, &E);
+//
+//    for (int i = 0; i < E; i++)
+//    {
+//        int from, to, val;
+//        scanf("%d %d %d", &from, &to, &val);
+//
+//        vc[from].push_back(pii(to, val));
+//        vc[to].push_back(pii(from, val));
+//    }
+//
+//    // 최단 거리 INF 초기화
+//    fill(dist, dist + 1001, INF);
+//
+//    // 최소 힙
+//    priority_queue<pii, vector<pii>, greater<pii>> pq;
+//
+//    // first :: 최단 거리, second :: 정점 위치
+//    pq.push(pii(0,1));
+//    // 시작 위치의 최단 거리는 0이다.
+//    dist[1] = 0;
+//
+//    while (!pq.empty())
+//    {
+//        int here = pq.top().second;
+//        int hereCost = pq.top().first;
+//
+//        pq.pop();
+//
+//        // here까지 최단 거리가 hereCost보다 작다면 continue
+//        if (dist[here] < hereCost)
+//            continue;
+//
+//        for (int i = 0; i < vc[here].size(); i++)
+//        {
+//            int there = vc[here][i].first;
+//            int thereCost = vc[here][i].second + hereCost;
+//
+//            // there까지 최단 거리가 thereCost보다 크다면 갱신
+//            if (dist[there] > thereCost)
+//            {
+//                dist[there] = thereCost;
+//
+//                pq.push(pii(thereCost, there));
+//
+//                // 갱신이 된다면 parent는 유일하다.
+//                parent[there] = here;
+//            }
+//        }
+//    }
+//
+//    // 정점의 수 - 1이 회선 개수이다.
+//    printf("%d\n", V - 1);
+//
+//    for (int i = 2; i <= V; i++)
+//        printf("%d %d\n", parent[i], i);
+//
+//    return 0;
+//}
