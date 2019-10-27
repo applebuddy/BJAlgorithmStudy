@@ -34,9 +34,9 @@ int theBudgets() {
     return V.back();
 }
 
-int main() {
-    ios_base :: sync_with_stdio(0); cin.tie(0);
-    int Ans = theBudgets();
-    printf("%d\n",Ans);
-    return 0;
-}
+//int main() {
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int Ans = theBudgets();
+//    printf("%d\n",Ans);
+//    return 0;
+//}

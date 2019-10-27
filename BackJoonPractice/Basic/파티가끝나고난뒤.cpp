@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 파티가 끝나고 난 뒤 : Basic Problem
-
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -24,7 +24,7 @@ void afterThePartyIsOver() {
     for(auto v : Ans) printf("%d ",v);
     return;
 }
-
+#endif 
 //int main() {
 //    afterThePartyIsOver();
 //    return 0;
