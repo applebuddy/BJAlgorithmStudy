@@ -7,6 +7,7 @@
 //
 
 /// MARK: - 거북이_2959 : The Turtle Problem
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -25,3 +26,4 @@ void theTurtle() {
 //    theTurtle();
 //    return 0;
 //}
+#endif
