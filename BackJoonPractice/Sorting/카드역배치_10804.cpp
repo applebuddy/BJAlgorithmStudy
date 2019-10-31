@@ -4,7 +4,6 @@
 //
 //  Created by MinKyeongTae on 29/10/2019.
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
-//
 
 /// MARK: - 카드역배치_10804
 #if 0
