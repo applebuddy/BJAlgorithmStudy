@@ -55,11 +55,11 @@ int main() {
     int N = 7; // 노드 갯수
     int M = 11; // 간선 갯수
     vector<Edge> V;
-    V.push_back(Edge(1, 7, 12));
-    V.push_back(Edge(4, 7, 13));
-    V.push_back(Edge(1, 4, 18));
+//    V.push_back(Edge(1, 7, 12));
+//    V.push_back(Edge(4, 7, 13));
+//    V.push_back(Edge(1, 4, 18));
     V.push_back(Edge(1, 2, 67));
-    V.push_back(Edge(1, 5, 17));
+//    V.push_back(Edge(1, 5, 17));
     V.push_back(Edge(2, 4, 24));
     V.push_back(Edge(2, 5, 62));
     V.push_back(Edge(3, 5, 20));
@@ -80,8 +80,12 @@ int main() {
     for(int i=0; i<V.size(); i++) {
         // 만약 노드가 순환되지 않는다면(순환체크를 위해 UnionFind Algorithm을 사용)
         // * 부모노드를 체크하는 C 배열의 인덱스는 0부터 시작하므로, checkParent의 인자값 인덱스는 1씩 감소 후 사용
+        int from = V[i].node[0];
+        int to = V[i].node[1];
+        
         if(!checkParent(C, V[i].node[0]-1, V[i].node[1]-1)) {
             // 순환이 일어나지 않으며, 해당 가중치를 누적시킨 후
+            printf("%d %d\n",from,to);
             SUM+=V[i].weight;
             // 이미 사용 된 간선 루트는 서로소집합(Union Find Algorithm) 적용시킨다.
             unionParent(C, V[i].node[0]-1, V[i].node[1]-1);
