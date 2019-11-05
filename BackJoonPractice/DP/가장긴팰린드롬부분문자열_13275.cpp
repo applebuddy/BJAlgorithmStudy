@@ -6,6 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+#if 0
 #include <iostream>
 #include <vector>
 #include <string>
@@ -50,3 +51,4 @@ void theLongestPelindrom() {
 //    theLongestPelindrom();
 //    return 0;
 //}
+#endif

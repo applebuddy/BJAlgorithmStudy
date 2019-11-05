@@ -9,7 +9,7 @@
 /// MARK: - 음식평론가
 /// N개의 소세지를 M명에게 동등하게 나누어 주려면 필요한 최소한의 칼질은 몇번일까요??
 /// * 이해필요...
-
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -34,4 +34,4 @@ int solve() {
 //    printf("%d\n",Ans);
 //    return 0;
 //}
-
+#endif 
