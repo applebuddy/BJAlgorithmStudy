@@ -6,6 +6,8 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+/// MARK: - 수이어쓰기_1515
+#if 0
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -23,7 +25,7 @@ int main(){
     while(K > count*len) {
         nowNum += count;
         k -= count*len;
-        count *= 10;
+        count *=10;
         len++;
     }
     
@@ -37,4 +39,4 @@ int main(){
     }
     return 0;
 }
-
+#endif
