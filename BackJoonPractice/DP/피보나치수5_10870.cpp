@@ -6,6 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -25,3 +26,4 @@ int main() {
     printf("%d\n",Ans);
     return 0;
 }
+#endif
