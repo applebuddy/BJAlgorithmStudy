@@ -7,7 +7,7 @@
 //
 
 // MARK: - 1,2,3더하기_9095
-
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -32,3 +32,4 @@ int main() {
     }
     return 0;
 }
+#endif
