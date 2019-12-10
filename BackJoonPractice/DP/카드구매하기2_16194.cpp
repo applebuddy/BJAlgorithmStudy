@@ -7,7 +7,7 @@
 //
 
 // MARK: - 카드구매하기2_16194
-
+#if 0
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -33,4 +33,4 @@ int main() {
     printf("%d\n",GO(N, PV));
     return 0;
 }
-
+#endif
