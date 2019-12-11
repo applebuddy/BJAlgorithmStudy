@@ -9,6 +9,7 @@
 /// MARK: - 가장 긴 증가하는 부분수열_11053 : LIS Problem
 
 // MARK: - 순수 DP 활용 통과 답안 '19. 12. 12.
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -30,9 +31,9 @@ int main() {
         Ans = DP[i] > Ans ? DP[i] : Ans;
     }
     printf("%d\n",Ans);
-    return 0;
+   return 0;
 }
-
+#endif
 
 // MARK: - Lower_bound 활용 풀이 답안
 #if 0

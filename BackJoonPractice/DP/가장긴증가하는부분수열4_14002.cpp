@@ -6,7 +6,54 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-/// MARK: - 가장 긴 증가하는 부분수열4_14002
+/// MARK: 가장 긴 증가하는 부분수열4_14002
+
+// MARK: - 살짝 보완 버전 통과 답안 '19. 12. 12.
+
+#if 0
+#include <vector>
+#include <stack>
+#include <iostream>
+using namespace std;
+
+vector<int> V(1001,0);
+vector<int> DP(1001,0);
+vector<int> RV(1001,-1);
+
+void DFS(int node) {
+    if(node == -1) return;
+    DFS(RV[node]);
+    printf("%d ", V[node]);
+    return;
+}
+
+int main() {
+    ios_base :: sync_with_stdio(0); cin.tie(0);
+    int N; cin>>N;
+    int Ans = -1, lgtIdx = 0;
+    for(int i=0; i<N; i++) cin>>V[i];
+
+    for(int i=0; i<N; i++) {
+        DP[i] = 1;
+        for(int j=0; j<i; j++) {
+            if(V[j] < V[i] && DP[i] < DP[j]+1) {
+                DP[i] = DP[j]+1;
+                RV[i] = j;
+            }
+        }
+        if(Ans < DP[i]) {
+            Ans = DP[i];
+            lgtIdx = i;
+        }
+    }
+
+    printf("%d\n",Ans);
+    DFS(RV[lgtIdx]);
+    printf("%d\n", V[lgtIdx]);
+    return 0;
+}
+#endif
+
 #if 0
 #include <iostream>
 #include <vector>
