@@ -8,6 +8,7 @@
 
 // MARK: - 가장 긴 증가하는 부분수열2 12015
 
+#if 0
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -29,3 +30,4 @@ int main() {
     
     return 0;
 }
+#endif
