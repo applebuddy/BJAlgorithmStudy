@@ -6,7 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: 가장긴바이토닉부분수열
+// MARK: 가장 긴 바이토닉 부분 수열 11054
 
 #if 0
 #include <iostream>
