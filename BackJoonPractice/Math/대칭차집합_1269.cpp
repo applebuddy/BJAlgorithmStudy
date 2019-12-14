@@ -32,7 +32,7 @@ int main() {
     
     vector<int> V;
     vector<int> V2;
-
+    
     set_difference(setA.begin(), setA.end(), setB.begin(), setB.end(), back_inserter(V));
     set_difference(setB.begin(), setB.end(), setA.begin(), setA.end(), back_inserter(V2));
     printf("%d\n",(int)(V.size()+V2.size()));
