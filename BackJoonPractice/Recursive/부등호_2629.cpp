@@ -8,6 +8,42 @@
 
 // MARK: 부등호_2629
 
+// MARK: - 위상정렬 원리 이용, 빠른 풀이답안
+#if 0
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    ios_base :: sync_with_stdio(0); cin.tie(0);
+    int K; cin>>K;
+    vector<char> KV(K);
+    vector<int> minV = {0,1,2,3,4,5,6,7,8,9};
+    vector<int> maxV = {9,8,7,6,5,4,3,2,1,0};
+    for(int i=0; i<K; i++) cin>>KV[i];
+    
+    for(int i=0; i<K; i++) {
+        for(int j=0; j<K-i; j++) {
+            if(KV[j]=='<') {
+                if(maxV[j] > maxV[j+1]) swap(maxV[j],maxV[j+1]);
+                if(minV[j] > minV[j+1]) swap(minV[j],minV[j+1]);
+            } else {
+                if(maxV[j] < maxV[j+1]) swap(maxV[j], maxV[j+1]);
+                if(minV[j] < minV[j+1]) swap(minV[j], minV[j+1]);
+            }
+        }
+    }
+    
+    for(int i=0; i<K+1; i++) printf("%d",maxV[i]);
+    puts("");
+    for(int i=0; i<K+1; i++) printf("%d",minV[i]);
+    puts("");
+    return 0;
+}
+#endif
+
+// MARK: - 백트래킹 풀이 답안 (완전탐색이라 속도가 느림)
 #if 0
 #include <iostream>
 #include <vector>
