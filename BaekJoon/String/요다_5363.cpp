@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 요다_5363
-
+#if 0
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -29,6 +29,7 @@ void theYoda() {
     }
     return;
 }
+#endif
 
 //int main() {
 //    ios_base :: sync_with_stdio(0); cin.tie(0);
