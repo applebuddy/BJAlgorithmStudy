@@ -1,5 +1,5 @@
 //
-//  이중수선순위큐_7662.cpp
+//  이중우선순위큐_7662.cpp
 //  BackJoonPractice
 //
 //  Created by MinKyeongTae on 2019/12/17.
@@ -61,4 +61,5 @@ int main() {
     
     return 0;
 }
+
 #endif
