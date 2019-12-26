@@ -7,25 +7,26 @@
 //
 
 // MARK: 내가 살게, 아냐 내가 살게 18229
+
 /*
-import Foundation
+ import Foundation
 
-let arr = readLine()!.split(separator: " ").map { Int($0)! }
-let N = arr[0], M = arr[1], K = arr[2]
+ let arr = readLine()!.split(separator: " ").map { Int($0)! }
+ let N = arr[0], M = arr[1], K = arr[2]
 
-var comp = [[Int]]()
-var score = [Int](repeating: 0, count: N)
-for _ in 0..<N {
-    let arr2 = readLine()!.split(separator: " ").map { Int($0)! }
-    comp.append(arr2)
-}
+ var comp = [[Int]]()
+ var score = [Int](repeating: 0, count: N)
+ for _ in 0..<N {
+ let arr2 = readLine()!.split(separator: " ").map { Int($0)! }
+ comp.append(arr2)
+ }
 
-for i in comp[0].indices {
-    for j in comp.indices {
-        score[j] += comp[j][i]
-        if score[j] >= K {
-            print("\(j+1) \(i+1)"); exit(0)
-        }
-    }
-}
-*/
+ for i in comp[0].indices {
+ for j in comp.indices {
+     score[j] += comp[j][i]
+     if score[j] >= K {
+         print("\(j+1) \(i+1)"); exit(0)
+     }
+ }
+ }
+ */
