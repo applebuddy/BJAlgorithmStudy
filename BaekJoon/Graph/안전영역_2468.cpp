@@ -6,7 +6,80 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-/// MARK: - 안전영역_2468
+/// MARK:  안전영역_2468
+
+// MARK: - 복습 풀이답안; 함수 더 쪼갠 풀이버전
+#if 0
+#include <iostream>
+#include <queue>
+using namespace std;
+typedef pair<int,int> Pair;
+
+Pair Ans = {0, 1};
+int tx[] = {0,0,-1,1};
+int ty[] = {-1,1,0,0};
+
+void BFS(int i, int j, vector<vector<int>> &G, const int &height) {
+    queue<Pair> Q;
+    Q.push({i,j});
+    G[i][j] = 0;
+    while(!Q.empty()) {
+        Pair node = Q.front();
+        int nx = node.first;
+        int ny = node.second;
+        Q.pop();
+        
+        for(int i=0; i<4; i++) {
+            int mx = nx + tx[i];
+            int my = ny + ty[i];
+            if(mx < 0 || my < 0 || mx >= G.size() || my >= G[0].size()) continue;
+            if(G[mx][my] == 0 || G[mx][my] <= height) continue;
+            G[mx][my] = 0;
+            Q.push({mx,my});
+        }
+    }
+}
+
+void checkBFS(vector<vector<int>> G, const int &height) {
+    int count = 0;
+    for(int i=0; i<G.size(); i++) {
+        for(int j=0; j<G.size(); j++) {
+            if(G[i][j] > height) {
+                count++;
+                BFS(i,j,G,height);
+            }
+        }
+    }
+    
+    if(count > Ans.second) {
+        Ans.first = height;
+        Ans.second = count;
+    }
+}
+
+int main() {
+    ios_base :: sync_with_stdio(0); cin.tie(0);
+    int N; cin>>N;
+    Pair minMax = {2e9, 0};
+    
+    vector<vector<int>> G(N,vector<int>(N,0));
+    for(int i=0; i<N; i++) {
+        for(int j=0; j<N; j++) {
+            cin>>G[i][j];
+            minMax.first = minMax.first > G[i][j] ? G[i][j] : minMax.first;
+            minMax.second = minMax.second < G[i][j] ? G[i][j] : minMax.second;
+        }
+    }
+    
+    for(int i=minMax.first; i<minMax.second; i++) {
+        checkBFS(G, i);
+    }
+    
+    printf("%d\n", Ans.second);
+    return 0;
+}
+#endif
+
 
 #if 0
 #include <iostream>

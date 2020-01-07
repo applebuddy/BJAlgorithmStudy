@@ -6,7 +6,7 @@
 //  Copyright © 2020 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: 보물찾기 문제풀이ㅣ
+// MARK: 보물찾기 문제풀이
 #if 0
 #include <iostream>
 #include <vector>

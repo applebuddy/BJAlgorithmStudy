@@ -9,47 +9,47 @@
 // 미통과 답안
 
 /*
-import Foundation
- 
-let arr = readLine()!.split(separator: " ").map { Int($0)! }
-let tx = [0,0,-1,1]
-let ty = [1,-1,0,0]
+ import Foundation
 
-let col = arr[0], row = arr[1]
-var remain = 0, Ans = 0
-var G = [[Int]]()
-var Q = [(Int,Int)]()
+ let arr = readLine()!.split(separator: " ").map { Int($0)! }
+ let tx = [0,0,-1,1]
+ let ty = [1,-1,0,0]
 
-for _ in 0..<row {
-    let row = readLine()!.split(separator: " ").map { Int($0)! }
-    G.append(row)
-}
+ let col = arr[0], row = arr[1]
+ var remain = 0, Ans = 0
+ var G = [[Int]]()
+ var Q = [(Int,Int)]()
 
-for i in G.indices {
-    for j in G[i].indices {
-        if G[i][j] == 0 { remain += 1 }
-        if G[i][j] == 1 {
-            Q.append((i,j))
-        }
-    }
-}
+ for _ in 0..<row {
+ let row = readLine()!.split(separator: " ").map { Int($0)! }
+ G.append(row)
+ }
 
-if remain == 0 { print(0); exit(0) }
+ for i in G.indices {
+ for j in G[i].indices {
+     if G[i][j] == 0 { remain += 1 }
+     if G[i][j] == 1 {
+         Q.append((i,j))
+     }
+ }
+ }
 
-while(!Q.isEmpty) {
-    let nowN = Q.first!
-    Q.removeFirst()
-    if remain <= 0 { break }
-    for i in 0..<4 {
-        let nextN = (nowN.0 + ty[i], nowN.1 + tx[i])
-        if nextN.0 >= row || nextN.0 < 0 || nextN.1 >= col || nextN.1 < 0 { continue }
-        if G[nextN.0][nextN.1] != 0 { continue }
-        G[nextN.0][nextN.1] = G[nowN.0][nowN.1] + 1
-        Ans = Ans < G[nextN.0][nextN.1] ? G[nextN.0][nextN.1] : Ans
-        Q.append((nextN.0, nextN.1))
-        remain -= 1
-    }
-}
+ if remain == 0 { print(0); exit(0) }
 
-print(remain == 0 ? max(0,Ans-1) : -1)
-*/
+ while(!Q.isEmpty) {
+ let nowN = Q.first!
+ Q.removeFirst()
+ if remain <= 0 { break }
+ for i in 0..<4 {
+     let nextN = (nowN.0 + ty[i], nowN.1 + tx[i])
+     if nextN.0 >= row || nextN.0 < 0 || nextN.1 >= col || nextN.1 < 0 { continue }
+     if G[nextN.0][nextN.1] != 0 { continue }
+     G[nextN.0][nextN.1] = G[nowN.0][nowN.1] + 1
+     Ans = Ans < G[nextN.0][nextN.1] ? G[nextN.0][nextN.1] : Ans
+     Q.append((nextN.0, nextN.1))
+     remain -= 1
+ }
+ }
+
+ print(remain == 0 ? max(0,Ans-1) : -1)
+ */
