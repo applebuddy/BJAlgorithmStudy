@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 한 줄로 서기_1138
-
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -36,6 +36,7 @@ void standInOneLine() {
     printf("\n");
     return;
 }
+#endif
 
 //int main() {
 //    ios_base :: sync_with_stdio(0); cin.tie(0);
