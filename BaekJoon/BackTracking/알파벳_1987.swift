@@ -11,38 +11,38 @@
 // MARK: - 시간초과 답안
 
 /*
-import Foundation
+ import Foundation
 
-let arr0 = readLine()!.split(separator: " ").map { Int($0)! }
-let arr1 = readLine()!.split(separator: " ").map { Int($0)! }
-let N = arr0[0], M = arr0[1]
-var maxH = 0
-var trees = [Int](repeating: 0, count: N)
+ let arr0 = readLine()!.split(separator: " ").map { Int($0)! }
+ let arr1 = readLine()!.split(separator: " ").map { Int($0)! }
+ let N = arr0[0], M = arr0[1]
+ var maxH = 0
+ var trees = [Int](repeating: 0, count: N)
 
-for i in arr1.indices {
-    trees[i] = arr1[i]
-    maxH = trees[i] > maxH ? trees[i] : maxH
-}
+ for i in arr1.indices {
+ trees[i] = arr1[i]
+ maxH = trees[i] > maxH ? trees[i] : maxH
+ }
 
-var left = 1, right = maxH-1, Ans = 0
-while left <= right {
-    let mid = (left + right) / 2
-    var tot = 0
-    for i in trees.indices {
-        if trees[i] > mid {
-            tot += trees[i] - mid
-        }
-    }
-    
-    if tot >= M {
-        left = mid + 1
-        Ans = Ans < mid ? mid : Ans
-        print(Ans)
-    } else {
-        right = mid - 1
-    }
-}
+ var left = 1, right = maxH-1, Ans = 0
+ while left <= right {
+ let mid = (left + right) / 2
+ var tot = 0
+ for i in trees.indices {
+     if trees[i] > mid {
+         tot += trees[i] - mid
+     }
+ }
 
-print(Ans)
+ if tot >= M {
+     left = mid + 1
+     Ans = Ans < mid ? mid : Ans
+     print(Ans)
+ } else {
+     right = mid - 1
+ }
+ }
 
-*/
+ print(Ans)
+
+ */

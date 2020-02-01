@@ -20,7 +20,7 @@ int main() {
     long long len=1, cnt=9, nowNum=0;
     while(K > len*cnt) {
         k -= len*cnt;
-        nowNum += cnt;
+        nowNum += len*cnt;
         len++;
         cnt*=10;
     }
