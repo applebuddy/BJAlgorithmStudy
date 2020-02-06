@@ -6,7 +6,29 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: - 가장 긴 감소하는 부분수열_11722
+// MARK: 가장 긴 감소하는 부분수열 LDS 11722
+
+// MARK: - DP, lower_bound 활용 복습 문제풀이
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int N; cin>>N;
+    vector<int> V(N,0);
+    vector<int> Ans;
+    for(int i=0; i<N; i++) cin>>V[i];
+    reverse(V.begin(), V.end());
+    for(int i=0; i<N; i++) {
+        int idx = (int)(lower_bound(Ans.begin(), Ans.end(), V[i]) - Ans.begin());
+        if(idx == Ans.size()) Ans.push_back(V[i]);
+        else Ans[idx] = V[i];
+    }
+
+    printf("%d\n",(int)Ans.size());
+    return 0;
+}
 
 #if 0
 #include <iostream>
