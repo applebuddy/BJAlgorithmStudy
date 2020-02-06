@@ -6,8 +6,9 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-/// MARK: - 가장 긴 증가하는 부분 수열5_14003
+/// MARK: 가장 긴 증가하는 부분 수열 5 14003
 
+// MARK: - LIS 복습 문제풀이
 #if 0
 #include <iostream>
 #include <vector>
