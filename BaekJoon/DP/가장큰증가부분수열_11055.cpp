@@ -6,7 +6,9 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: - 가장 큰 증가 부분수열 11055
+// MARK: 가장 큰 증가 부분수열 11055
+
+// MARK: - 복습 문제풀이
 
 #if 0
 #include <iostream>

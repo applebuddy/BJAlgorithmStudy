@@ -9,6 +9,7 @@
 // MARK: 가장 긴 감소하는 부분수열 LDS 11722
 
 // MARK: - DP, lower_bound 활용 복습 문제풀이
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -29,6 +30,7 @@ int main() {
     printf("%d\n",(int)Ans.size());
     return 0;
 }
+#endif
 
 #if 0
 #include <iostream>
