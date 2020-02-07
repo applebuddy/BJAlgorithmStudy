@@ -9,18 +9,18 @@
 // MARK: 아즈텍 피라미드 7770
 
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
-var sum = 0, Ans = 0, idx = 1
-if N == 1 { print(1); exit(0) }
-while sum <= N {
-    sum += idx * idx + (idx-1) * (idx-1)
-    if sum > N { break }
-    Ans += 1
-    idx += 1
-    
-}
+ let N = Int(readLine()!)!
+ var sum = 0, Ans = 0, idx = 1
+ if N == 1 { print(1); exit(0) }
+ while sum <= N {
+ sum += idx * idx + (idx-1) * (idx-1)
+ if sum > N { break }
+ Ans += 1
+ idx += 1
 
-print(Ans)
-*/
+ }
+
+ print(Ans)
+ */
