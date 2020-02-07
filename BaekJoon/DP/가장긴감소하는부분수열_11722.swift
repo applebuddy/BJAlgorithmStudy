@@ -7,7 +7,10 @@
 //
 
 // MARK: 가장 긴 감소하는 부분수열
-// MARK: - LDS 문제풀이
+// MARK: - LDS 문제풀이 NLogN 답안
+
+
+ 
 
 /*
 import Foundation
@@ -42,4 +45,24 @@ while idx >= 0 {
 }
 
 print(Ans.count)
+*/
+
+// MARK: - DP N^2 풀이 답안
+/*
+import Foundation
+
+let N = Int(readLine()!)
+let arr = readLine()!.split(separator: " ").map { Int($0)! }
+var SV = Array(arr.reversed())
+var DP = [Int](repeating: 1, count: SV.count)
+
+for i in 1..<SV.count {
+    for j in 0..<i {
+        if SV[j] < SV[i] && DP[i] <= DP[j] + 1 {
+            DP[i] = DP[j] + 1
+        }
+    }
+}
+
+print(DP.max()!)
 */
