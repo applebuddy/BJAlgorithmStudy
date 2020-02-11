@@ -23,7 +23,7 @@ func getPadovan(_ N: Int) -> Int {
     return DP[N]
 }
 
-for _ in 0..<T {
+for _ in 0..<T {w
     let N = Int(readLine()!)!
     print(getPadovan(N))
 }
