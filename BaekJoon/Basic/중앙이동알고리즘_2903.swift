@@ -7,16 +7,18 @@
 //
 
 // MARK: 중앙이동알고리즘 2903
+
 // MARK: - 문제풀이
+
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
-var K = 3, Ans = 0
-for _ in 1...N {
-    Ans = K * K
-    K += K-1
-}
+ let N = Int(readLine()!)!
+ var K = 3, Ans = 0
+ for _ in 1...N {
+ Ans = K * K
+ K += K-1
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */
