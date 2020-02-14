@@ -9,6 +9,7 @@
 // MARK: ROT13 11655
 
 // MARK: - Char ASCII 활용 문제풀이
+#if 0
 #include <iostream>
 #include <string>
 using namespace std;
@@ -30,3 +31,4 @@ int main() {
     printf("%s\n",S.c_str());
     return 0;
 }
+#endif
