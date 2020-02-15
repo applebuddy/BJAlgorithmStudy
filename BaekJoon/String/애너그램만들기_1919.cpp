@@ -6,7 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-/// MARK: - 애너그램만들기_    1919
+/// MARK: - 애너그램만들기 1919
 
 #include <iostream>
 #include <string>
