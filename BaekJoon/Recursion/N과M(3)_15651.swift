@@ -2,31 +2,31 @@
 //  N과M(3)_15651.swift
 //  BackJoonPractice
 //
-//  Created by MinKyeongTae on 2019/12/11.
-//  Copyright © 2019 Min Kyeong Tae. All rights reserved.
+//  Created by MinKyeongTae on 2020/03/03.
+//  Copyright © 2020 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: - N과M(3)_15651
+// MARK: - N과M(3) 15651
+// MARK: Recursion swift
 
 /*
- import Foundation
+import Foundation
 
- var input = readLine()?.split(separator: " ").map { Int($0)! }
- let N = input![0], M = input![1]
+let arr = readLine()!.split(separator: " ").map { Int($0)! }
+let N = arr[0], M = arr[1]
+var Ans = [String](repeating: " ", count: M)
 
- func DFS(_ idx: Int) {
- if idx == M {
-     print(arr.joined(separator: " "))
-     return
- }
+func recursion(_ cnt: Int) {
+    if cnt >= M {
+        print(Ans.joined(separator: " "))
+        return
+    }
+    
+    for i in 1...N {
+        Ans[cnt] = String(i)
+        recursion(cnt+1)
+    }
+}
 
- for i in 1...N {
-     arr[idx] = String(i)
-     DFS(idx+1)
- }
- }
-
- var arr = [String](repeating: "1", count: M)
- DFS(0)
-
- */
+recursion(0)
+*/
