@@ -9,6 +9,7 @@
 // MARK: 떡먹는호랑이 2502
 
 // MARK: - BruteForce 문제풀이
+#if 0
 #include <iostream>
 using namespace std;
 
@@ -31,3 +32,4 @@ int main() {
     }
     return 0;
 }
+#endif
