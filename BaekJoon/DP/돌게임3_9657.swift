@@ -1,5 +1,11 @@
 
 // MARK: - 돌게임3 9657
+
+// MARK: DP swift 숏코딩 문제풀이
+/*
+let N=Int(readLine()!)!%7;print(N==0||N==2 ? "CY":"SK")
+*/
+
 // MARK: DP swift 문제풀이
 
 /*
