@@ -14,7 +14,7 @@ let T = Int(readLine()!)!
 
 for _ in 0..<T {
     let _ = readLine()
-    var arr = readLine()!.split(separator: " ").map { Int($0)! }.sorted()
+    let arr = readLine()!.split(separator: " ").map { Int($0)! }.sorted()
     var left = arr[0]
     var right = arr[1]
     var diff = 0

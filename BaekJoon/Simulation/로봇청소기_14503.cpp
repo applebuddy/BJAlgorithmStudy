@@ -9,7 +9,7 @@
 // MARK: - 로봇청소기 14503
 // MARK: Simulation C++ 문제풀이
 
-#if 0
+#if 1
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -33,6 +33,7 @@ struct Robot {
     void cleanPlace() {
         if(G[posX][posY]==0) {
             G[posX][posY] = 2;
+            
 //            printf("Clean %d,%d\n",posX,posY);
 //            for(int i=0; i<N; i++) {
 //                for(int j=0; j<M; j++) {
@@ -40,6 +41,7 @@ struct Robot {
 //                }
 //                puts("");
 //            }
+            
             Ans++;
         }
     }
