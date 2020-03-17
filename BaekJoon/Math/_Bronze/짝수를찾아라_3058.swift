@@ -17,3 +17,10 @@ for _ in 0..<T {
     print("\(sum) \(mVal)")
 }
 */
+
+
+//while let S = "fuck" {
+//    if S.contains(":cat:") != nil {
+//        print("YES")
+//    } else { print("NO") }
+//}
