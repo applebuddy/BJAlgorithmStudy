@@ -1,6 +1,7 @@
 
 // MARK: - 선 그리기 16396
 // MARK: Implementation swift 문제풀이
+
 /*
 let N = Int(readLine()!)!
 var G = [Int](repeating: 0, count: 10001)
