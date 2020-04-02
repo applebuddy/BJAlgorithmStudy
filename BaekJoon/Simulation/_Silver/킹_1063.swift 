@@ -1,0 +1,52 @@
+
+// MARK: - 킹 1063
+// MARK: Simulation swift 문제풀이
+
+/*
+typealias Pair = (Int, Int)
+let len = 8
+let dic: [String: Pair] = ["R":(0,1), "L":(0,-1), "B":(-1,0), "T":(1,0), "RT":(1,1), "LT":(1,-1), "RB":(-1,1), "LB":(-1,-1)]
+
+var kPos = (0,0)
+var sPos = (0,0)
+var nKPos = (0,0)
+var nSPos = (0,0)
+
+func getPos(_ arr: [Character]) -> Pair {
+  let x = Int(String(arr[1]))! - 1
+  let y = Int(arr[0].asciiValue!) - 65
+  return (x, y)
+}
+
+func moveKing(_ pos: Pair) {
+  nKPos = (kPos.0 + pos.0, kPos.1 + pos.1)
+  if nKPos.0 < 0 || nKPos.1 < 0 || nKPos.0 >= len || nKPos.1 >= len { return }
+
+  if nKPos == sPos {
+    nSPos = (sPos.0 + pos.0, sPos.1 + pos.1)
+  } else {
+    kPos = nKPos
+    return
+  }
+
+  if nSPos.0 < 0 || nSPos.1 < 0 || nSPos.0 >= len || nSPos.1 >= len { return }
+  kPos = nKPos
+  sPos = nSPos
+}
+
+let arr = readLine()!.split(separator: " ")
+kPos = getPos(Array(arr[0]))
+sPos = getPos(Array(arr[1]))
+nKPos = kPos
+nSPos = sPos
+
+let T = Int(String(arr[2]))!
+
+for _ in 0..<T {
+  let dir = dic[readLine()!]!
+  moveKing(dir)
+}
+
+print(Character(Unicode.Scalar((kPos.1) + 65)!), kPos.0+1, separator: "")
+print(Character(Unicode.Scalar((sPos.1) + 65)!), sPos.0+1, separator: "")
+*/
