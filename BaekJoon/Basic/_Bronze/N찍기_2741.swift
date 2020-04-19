@@ -5,3 +5,4 @@
 /*
 for i in 1...Int(readLine()!)!{print(i)}
 */
+
