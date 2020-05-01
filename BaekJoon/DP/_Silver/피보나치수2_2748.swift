@@ -5,7 +5,8 @@
 /*
 let N = Int(readLine()!)!
 var prev = 1, pprev = 1
-if N <= 2 { print(1) }
+if N == 0 { print(0) }
+else if N <= 2 { print(1) }
 else {
   var Ans = 0
   for _ in 3...N {
