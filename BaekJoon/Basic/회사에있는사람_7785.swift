@@ -11,6 +11,18 @@
 // MARK: - 문제풀이
 
 /*
+// 복습 문제풀이
+let T = Int(readLine()!)!
+var dic = [String: Bool]()
+for _ in 0..<T {
+  let arr = readLine()!.split(separator: " ").map { String($0) }
+  dic[arr[0]] = arr[1] == "enter" ? true : nil
+}
+
+dic.map { $0.0 }.sorted(by: >).forEach { print($0) }
+*/
+
+/*
  import Foundation
 
  let N = Int(readLine()!)!
