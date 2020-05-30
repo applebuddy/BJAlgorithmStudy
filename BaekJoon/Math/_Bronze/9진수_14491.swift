@@ -7,15 +7,16 @@
 //
 
 // MARK: - 9진수 14491
+
 // MARK: swift 문제풀이
 
 /*
-var N = Int(readLine()!)!
-var Ans = ""
-while N > 0 {
-    Ans = "\(N % 9)\(Ans)"
-    N /= 9
-}
+ var N = Int(readLine()!)!
+ var Ans = ""
+ while N > 0 {
+ Ans = "\(N % 9)\(Ans)"
+ N /= 9
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */

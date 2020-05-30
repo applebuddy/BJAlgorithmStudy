@@ -7,17 +7,18 @@
 //
 
 // MARK: - 3n+1 수열
+
 // MARK: swift 문제풀이
 
 /*
-var N = Int(readLine()!)!
-var Ans = 1
+ var N = Int(readLine()!)!
+ var Ans = 1
 
-while true {
-    if N == 1 { break }
-    N = N & 1 != 1 ? N/2 : 3*N+1
-    Ans += 1
-}
+ while true {
+ if N == 1 { break }
+ N = N & 1 != 1 ? N/2 : 3*N+1
+ Ans += 1
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */

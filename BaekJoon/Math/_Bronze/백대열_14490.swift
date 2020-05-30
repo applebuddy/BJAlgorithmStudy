@@ -7,24 +7,25 @@
 //
 
 // MARK: - 백대열 14490
+
 // MARK: swift 문제풀이
 
 /*
-let arr = readLine()!.split(separator: ":").map { Int($0)! }
+ let arr = readLine()!.split(separator: ":").map { Int($0)! }
 
-var A = arr[0], B = arr[1]
+ var A = arr[0], B = arr[1]
 
-func getGCD(_ A: Int, _ B: Int) -> Int {
-    if B == 0 { return A }
-    return getGCD(B, A%B)
-}
+ func getGCD(_ A: Int, _ B: Int) -> Int {
+ if B == 0 { return A }
+ return getGCD(B, A%B)
+ }
 
-while true {
-    let nowGCD = getGCD(A,B)
-    if nowGCD == 1 { break }
-    A /= nowGCD
-    B /= nowGCD
-}
+ while true {
+ let nowGCD = getGCD(A,B)
+ if nowGCD == 1 { break }
+ A /= nowGCD
+ B /= nowGCD
+ }
 
-print("\(A):\(B)")
-*/
+ print("\(A):\(B)")
+ */
