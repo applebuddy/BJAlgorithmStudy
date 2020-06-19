@@ -6,6 +6,78 @@
 //  Copyright © 2020 Min Kyeong Tae. All rights reserved.
 //
 
+// MARK: - 마인크래프트 18111
+// MARK: BruteForce C++ 문제풀이 답안
+
+#if 0
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    ios_base :: sync_with_stdio(0); cin.tie(0);
+    int X, Y, K;
+    cin>>X>>Y>>K;
+    int MN = 2e9;
+    int MX = 0;
+    vector<int> Ans = {int(2e9), 0};
+    vector<vector<int>> G(X, vector<int>(Y, 0));
+    
+    for(int i=0; i<X; i++) {
+        for(int j=0; j<Y; j++) {
+            cin>>G[i][j];
+            MN = MN > G[i][j] ? G[i][j] : MN;
+            MX = MX < G[i][j] ? G[i][j] : MX;
+        }
+    }
+    
+    for(int k=MN; k<=MX; k++) {
+        int box = K;
+        int time = 0;
+        bool can = true;
+        vector<vector<int>> tG = G;
+        
+        for(int i=0; i<X; i++) {
+            for(int j=0; j<Y; j++) {
+                if(tG[i][j]>k) {
+                    box += (tG[i][j] - k);
+                    time += (tG[i][j] - k) * 2;
+                    tG[i][j] = k;
+                }
+            }
+        }
+        
+        if(Ans[0] < time) continue;
+        
+        for(int i=0; i<X; i++) {
+            for(int j=0; j<Y; j++) {
+                if(tG[i][j]<k) {
+                    box -= (k - tG[i][j]);
+                    time += (k - tG[i][j]);
+                    tG[i][j] = k;
+                    if(box < 0) {
+                        can = false;
+                        break;
+                    }
+                }
+            }
+        }
+        
+        if(can) {
+            if(Ans[0] >= time) {
+                Ans[0] = time;
+                Ans[1] = k;
+            }
+        }
+    }
+    
+    printf("%d %d\n",Ans[0], Ans[1]);
+}
+#endif
+
+
+// MARK: 풀이실패 답안
+
 #if 0
 #include <iostream>
 #include <vector>
@@ -66,3 +138,4 @@ int main() {
     return 0;
 }
 #endif
+1
