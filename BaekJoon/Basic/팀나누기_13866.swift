@@ -7,11 +7,12 @@
 //
 
 // MARK: - 팀나누기 13866
+
 // MARK: swift 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-let arr = readLine()!.split(separator: " ").map { Int($0)! }.sorted()
-print(abs((arr[0]+arr[3]) - (arr[1]+arr[2])))
-*/
+ let arr = readLine()!.split(separator: " ").map { Int($0)! }.sorted()
+ print(abs((arr[0]+arr[3]) - (arr[1]+arr[2])))
+ */

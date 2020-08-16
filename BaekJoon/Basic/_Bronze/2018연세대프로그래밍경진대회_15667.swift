@@ -9,10 +9,10 @@
 // MARK: swift 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
-for i in 1...100 {
-    if 1 + i + i*i == N { print(i); exit(0) }
-}
-*/
+ let N = Int(readLine()!)!
+ for i in 1...100 {
+ if 1 + i + i*i == N { print(i); exit(0) }
+ }
+ */

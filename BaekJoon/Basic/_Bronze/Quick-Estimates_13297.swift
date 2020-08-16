@@ -7,9 +7,10 @@
 //
 
 // MARK: - Quick-Estimates
+
 // MARK: swift 문제풀이
 
 /*
-let T = Int(readLine()!)!
-for _ in 0..<T { print(Array(readLine()!).count) }
-*/
+ let T = Int(readLine()!)!
+ for _ in 0..<T { print(Array(readLine()!).count) }
+ */

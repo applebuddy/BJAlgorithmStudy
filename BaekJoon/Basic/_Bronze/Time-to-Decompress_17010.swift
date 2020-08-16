@@ -7,14 +7,15 @@
 //
 
 // MARK: - Time-to-Decompress
+
 // MARK: swift 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-let T = Int(readLine()!)!
-for _ in 0..<T {
-    let arr = readLine()!.split(separator: " ")
-    print(String(repeating: String(arr[1]), count: Int(arr[0])!))
-}
-*/
+ let T = Int(readLine()!)!
+ for _ in 0..<T {
+ let arr = readLine()!.split(separator: " ")
+ print(String(repeating: String(arr[1]), count: Int(arr[0])!))
+ }
+ */

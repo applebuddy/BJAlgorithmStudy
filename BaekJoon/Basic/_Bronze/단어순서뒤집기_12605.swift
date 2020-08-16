@@ -7,16 +7,16 @@
 //
 
 // MARK: - 단어순서 뒤집기 12605
+
 // MARK: swift 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-let T = Int(readLine()!)!
+ let T = Int(readLine()!)!
 
-for i in 1...T {
-    let arr = readLine()!.split(separator: " ").reversed()
-    print("Case #\(i): \(arr.joined(separator: " "))")
-}
-*/
-
+ for i in 1...T {
+ let arr = readLine()!.split(separator: " ").reversed()
+ print("Case #\(i): \(arr.joined(separator: " "))")
+ }
+ */
