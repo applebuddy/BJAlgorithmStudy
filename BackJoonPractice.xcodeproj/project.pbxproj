@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		070A92D62594DD3600945551 /* 히스토그렘_1725.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A92D52594DD3600945551 /* 히스토그렘_1725.swift */; };
+		070A92D82594E52D00945551 /* 나무자르기_2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A92D72594E52D00945551 /* 나무자르기_2805.swift */; };
 		071CE8D12593B2510049092F /* 수열_2559.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CE8D02593B2510049092F /* 수열_2559.swift */; };
 		0777D44D23B5115700385E68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777D44C23B5115700385E68 /* main.swift */; };
 		0799E97823FC122900339FBA /* cmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0799E97723FC122900339FBA /* cmain.cpp */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		070A92D52594DD3600945551 /* 히스토그렘_1725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "히스토그렘_1725.swift"; sourceTree = "<group>"; };
+		070A92D72594E52D00945551 /* 나무자르기_2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나무자르기_2805.swift"; sourceTree = "<group>"; };
 		071CE4942593B18F0049092F /* 행렬제곱_10830.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "행렬제곱_10830.cpp"; sourceTree = "<group>"; };
 		071CE4952593B18F0049092F /* 터널의입구와출구.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "터널의입구와출구.cpp"; sourceTree = "<group>"; };
 		071CE4962593B18F0049092F /* 지구온난화_5212.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지구온난화_5212.cpp"; sourceTree = "<group>"; };
@@ -2547,6 +2549,7 @@
 				071CE8BB2593B1920049092F /* 전깃줄-2_2568.swift */,
 				071CE8BC2593B1920049092F /* 랜선자르기_1654.swift */,
 				071CE8BD2593B1920049092F /* 반도체설계_2352.swift */,
+				070A92D72594E52D00945551 /* 나무자르기_2805.swift */,
 				071CE8BE2593B1920049092F /* 용액합성하기_14921.swift */,
 				071CE8BF2593B1920049092F /* 용액_2467.swift */,
 			);
@@ -2680,6 +2683,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				070A92D62594DD3600945551 /* 히스토그렘_1725.swift in Sources */,
+				070A92D82594E52D00945551 /* 나무자르기_2805.swift in Sources */,
 				071CE8D12593B2510049092F /* 수열_2559.swift in Sources */,
 				0777D44D23B5115700385E68 /* main.swift in Sources */,
 				0799E97823FC122900339FBA /* cmain.cpp in Sources */,

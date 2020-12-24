@@ -1,6 +1,6 @@
 
 // MARK: - 수열 2559
-
+/*
 let ip: (() -> [Int]) = {
     let S = readLine()!
     var tmp = 0
@@ -45,3 +45,4 @@ for idx in G.indices {
 }
 
 print(mx)
+*/
