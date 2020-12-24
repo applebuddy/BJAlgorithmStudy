@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070A92D62594DD3600945551 /* 히스토그렘_1725.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A92D52594DD3600945551 /* 히스토그렘_1725.swift */; };
 		071CE8D12593B2510049092F /* 수열_2559.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CE8D02593B2510049092F /* 수열_2559.swift */; };
 		0777D44D23B5115700385E68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777D44C23B5115700385E68 /* main.swift */; };
 		0799E97823FC122900339FBA /* cmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0799E97723FC122900339FBA /* cmain.cpp */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		070A92D52594DD3600945551 /* 히스토그렘_1725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "히스토그렘_1725.swift"; sourceTree = "<group>"; };
 		071CE4942593B18F0049092F /* 행렬제곱_10830.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "행렬제곱_10830.cpp"; sourceTree = "<group>"; };
 		071CE4952593B18F0049092F /* 터널의입구와출구.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "터널의입구와출구.cpp"; sourceTree = "<group>"; };
 		071CE4962593B18F0049092F /* 지구온난화_5212.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "지구온난화_5212.cpp"; sourceTree = "<group>"; };
@@ -1468,6 +1470,7 @@
 			isa = PBXGroup;
 			children = (
 				071CE5A12593B18F0049092F /* 스택수열_1874.swift */,
+				070A92D52594DD3600945551 /* 히스토그렘_1725.swift */,
 				071CE5A22593B18F0049092F /* 문자열폭발_9935.cpp */,
 				071CE5A32593B18F0049092F /* Set_Stack.cpp */,
 				071CE5A42593B18F0049092F /* 괄호_9012.swift */,
@@ -2676,6 +2679,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070A92D62594DD3600945551 /* 히스토그렘_1725.swift in Sources */,
 				071CE8D12593B2510049092F /* 수열_2559.swift in Sources */,
 				0777D44D23B5115700385E68 /* main.swift in Sources */,
 				0799E97823FC122900339FBA /* cmain.cpp in Sources */,
