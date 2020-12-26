@@ -17,6 +17,7 @@
 		075840FA259618EB004EE0C4 /* 선수과목_14567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075840F9259618EB004EE0C4 /* 선수과목_14567.swift */; };
 		075840FC25962796004EE0C4 /* 2009년_2948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075840FB25962796004EE0C4 /* 2009년_2948.swift */; };
 		075840FE25964111004EE0C4 /* 부분합_1806.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075840FD25964111004EE0C4 /* 부분합_1806.swift */; };
+		0758410025976B04004EE0C4 /* 수도쿠_2239.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075840FF25976B04004EE0C4 /* 수도쿠_2239.swift */; };
 		0777D44D23B5115700385E68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777D44C23B5115700385E68 /* main.swift */; };
 		0799E97823FC122900339FBA /* cmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0799E97723FC122900339FBA /* cmain.cpp */; };
 /* End PBXBuildFile section */
@@ -1064,6 +1065,7 @@
 		075840F9259618EB004EE0C4 /* 선수과목_14567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선수과목_14567.swift"; sourceTree = "<group>"; };
 		075840FB25962796004EE0C4 /* 2009년_2948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2009년_2948.swift"; sourceTree = "<group>"; };
 		075840FD25964111004EE0C4 /* 부분합_1806.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부분합_1806.swift"; sourceTree = "<group>"; };
+		075840FF25976B04004EE0C4 /* 수도쿠_2239.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수도쿠_2239.swift"; sourceTree = "<group>"; };
 		0777D44C23B5115700385E68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0799E97723FC122900339FBA /* cmain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cmain.cpp; sourceTree = "<group>"; };
 		38BA618D226738CB0021B684 /* BackJoonPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackJoonPractice; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2549,6 +2551,7 @@
 			isa = PBXGroup;
 			children = (
 				071CE8B02593B1920049092F /* 숫자판점프_2210.swift */,
+				075840FF25976B04004EE0C4 /* 수도쿠_2239.swift */,
 				071CE8B12593B1920049092F /* N-Queen_9663.swift */,
 				071CE8B22593B1920049092F /* 좋은수열_2661.swift */,
 				071CE8B32593B1920049092F /* 수도쿠 */,
@@ -2709,6 +2712,7 @@
 				071CE8D12593B2510049092F /* 수열_2559.swift in Sources */,
 				0777D44D23B5115700385E68 /* main.swift in Sources */,
 				075840FC25962796004EE0C4 /* 2009년_2948.swift in Sources */,
+				0758410025976B04004EE0C4 /* 수도쿠_2239.swift in Sources */,
 				075840F825961128004EE0C4 /* 문제집_1766.swift in Sources */,
 				0799E97823FC122900339FBA /* cmain.cpp in Sources */,
 				075840FE25964111004EE0C4 /* 부분합_1806.swift in Sources */,
