@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
+		07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1045,6 +1046,7 @@
 		07585B70259E3830004EE0C4 /* 문자인식_3448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자인식_3448.swift"; sourceTree = "<group>"; };
 		07585B71259E3830004EE0C4 /* 수이어쓰기1_1748.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수이어쓰기1_1748.cpp"; sourceTree = "<group>"; };
 		07585B72259E3830004EE0C4 /* 추월_2002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "추월_2002.cpp"; sourceTree = "<group>"; };
+		07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "줄어들지않아_2688.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1525,6 +1527,7 @@
 				0758585D259E382D004EE0C4 /* LCS2_9252.cpp */,
 				0758585E259E382D004EE0C4 /* 가장긴팰린드롬부분문자열_13275.cpp */,
 				0758585F259E382D004EE0C4 /* 가장큰증가부분수열_11055.swift */,
+				07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */,
 				07585860259E382D004EE0C4 /* 피보나치수4_10826.swift */,
 				07585861259E382D004EE0C4 /* 이친수_2193.swift */,
 				07585862259E382D004EE0C4 /* 가장긴팰린드롬부분문자열_14444.cpp */,
@@ -2640,6 +2643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */,
 				075852FD259E3799004EE0C4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
