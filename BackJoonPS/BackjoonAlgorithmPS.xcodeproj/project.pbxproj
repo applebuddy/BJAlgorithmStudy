@@ -16,6 +16,7 @@
 		07585B7E25A0E3D9004EE0C4 /* Gauß_7523.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7D25A0E3D9004EE0C4 /* Gauß_7523.swift */; };
 		07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7F25A0E413004EE0C4 /* 문제집_1766.swift */; };
 		07585B8225A0E43A004EE0C4 /* 선수과목_14567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8125A0E43A004EE0C4 /* 선수과목_14567.swift */; };
+		07585B8425A0E469004EE0C4 /* 2009년_2948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8325A0E469004EE0C4 /* 2009년_2948.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1061,6 +1062,7 @@
 		07585B7D25A0E3D9004EE0C4 /* Gauß_7523.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gauß_7523.swift"; sourceTree = "<group>"; };
 		07585B7F25A0E413004EE0C4 /* 문제집_1766.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문제집_1766.swift"; sourceTree = "<group>"; };
 		07585B8125A0E43A004EE0C4 /* 선수과목_14567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선수과목_14567.swift"; sourceTree = "<group>"; };
+		07585B8325A0E469004EE0C4 /* 2009년_2948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2009년_2948.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2062,6 +2064,7 @@
 				075859C0259E382E004EE0C4 /* 고급레스토랑_12756.cpp */,
 				075859C1259E382E004EE0C4 /* 2진수뒤집기_11179.cpp */,
 				075859C2259E382E004EE0C4 /* CTP공국으로이민가자_12778.cpp */,
+				07585B8325A0E469004EE0C4 /* 2009년_2948.swift */,
 				075859C3259E382E004EE0C4 /* Set_For문활용하기.cpp */,
 				075859C4259E382E004EE0C4 /* 진법변환2_11005.cpp */,
 				075859C5259E382E004EE0C4 /* 신용카드판별_14726.swift */,
@@ -2670,6 +2673,7 @@
 				07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */,
 				075852FD259E3799004EE0C4 /* main.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
+				07585B8425A0E469004EE0C4 /* 2009년_2948.swift in Sources */,
 				07585B7C25A0E392004EE0C4 /* Z_1074.swift in Sources */,
 				07585B8225A0E43A004EE0C4 /* 선수과목_14567.swift in Sources */,
 				07585B7A25A0E36E004EE0C4 /* 좌표압축_18870.swift in Sources */,
