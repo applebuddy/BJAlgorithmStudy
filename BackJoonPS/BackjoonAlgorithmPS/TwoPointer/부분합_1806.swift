@@ -58,4 +58,3 @@ while left < right && sum >= S {
 
 print(Ans == Int.max ? 0 : Ans)
 */
-ㅠ
