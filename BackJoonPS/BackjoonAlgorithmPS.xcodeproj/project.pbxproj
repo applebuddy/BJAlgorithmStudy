@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
 		07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */; };
+		07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7525A0E304004EE0C4 /* 히스토그램_1725.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1047,6 +1048,7 @@
 		07585B71259E3830004EE0C4 /* 수이어쓰기1_1748.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "수이어쓰기1_1748.cpp"; sourceTree = "<group>"; };
 		07585B72259E3830004EE0C4 /* 추월_2002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "추월_2002.cpp"; sourceTree = "<group>"; };
 		07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "줄어들지않아_2688.swift"; sourceTree = "<group>"; };
+		07585B7525A0E304004EE0C4 /* 히스토그램_1725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "히스토그램_1725.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1483,6 +1485,7 @@
 			children = (
 				07585846259E382D004EE0C4 /* 스택수열_1874.swift */,
 				07585847259E382D004EE0C4 /* 문자열폭발_9935.cpp */,
+				07585B7525A0E304004EE0C4 /* 히스토그램_1725.swift */,
 				07585848259E382D004EE0C4 /* Set_Stack.cpp */,
 				07585849259E382D004EE0C4 /* 괄호_9012.swift */,
 				0758584A259E382D004EE0C4 /* 탑_2493.cpp */,
@@ -2643,6 +2646,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */,
 				07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */,
 				075852FD259E3799004EE0C4 /* main.swift in Sources */,
 			);
