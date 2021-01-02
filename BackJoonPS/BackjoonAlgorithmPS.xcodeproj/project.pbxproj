@@ -15,6 +15,7 @@
 		07585B7C25A0E392004EE0C4 /* Z_1074.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7B25A0E392004EE0C4 /* Z_1074.swift */; };
 		07585B7E25A0E3D9004EE0C4 /* Gauß_7523.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7D25A0E3D9004EE0C4 /* Gauß_7523.swift */; };
 		07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7F25A0E413004EE0C4 /* 문제집_1766.swift */; };
+		07585B8225A0E43A004EE0C4 /* 선수과목_14567.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8125A0E43A004EE0C4 /* 선수과목_14567.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1059,6 +1060,7 @@
 		07585B7B25A0E392004EE0C4 /* Z_1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z_1074.swift; sourceTree = "<group>"; };
 		07585B7D25A0E3D9004EE0C4 /* Gauß_7523.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gauß_7523.swift"; sourceTree = "<group>"; };
 		07585B7F25A0E413004EE0C4 /* 문제집_1766.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문제집_1766.swift"; sourceTree = "<group>"; };
+		07585B8125A0E43A004EE0C4 /* 선수과목_14567.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "선수과목_14567.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2008,6 +2010,7 @@
 				0758599C259E382E004EE0C4 /* 시리얼번호_1431.cpp */,
 				07585B7F25A0E413004EE0C4 /* 문제집_1766.swift */,
 				07585B7925A0E36E004EE0C4 /* 좌표압축_18870.swift */,
+				07585B8125A0E43A004EE0C4 /* 선수과목_14567.swift */,
 				0758599D259E382E004EE0C4 /* 블랙잭_2798.cpp */,
 				0758599E259E382E004EE0C4 /* 중복빼고정렬하기_10867.cpp */,
 				0758599F259E382E004EE0C4 /* Yangjojang-of-The-Year_11557.swift */,
@@ -2668,6 +2671,7 @@
 				075852FD259E3799004EE0C4 /* main.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
 				07585B7C25A0E392004EE0C4 /* Z_1074.swift in Sources */,
+				07585B8225A0E43A004EE0C4 /* 선수과목_14567.swift in Sources */,
 				07585B7A25A0E36E004EE0C4 /* 좌표압축_18870.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
