@@ -20,6 +20,7 @@
 		07585B8625A0E4A2004EE0C4 /* 부분합_1806.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8525A0E4A2004EE0C4 /* 부분합_1806.swift */; };
 		07585B8825A0E4CF004EE0C4 /* 수도쿠_2239.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8725A0E4CF004EE0C4 /* 수도쿠_2239.swift */; };
 		07585B8A25A0E615004EE0C4 /* 작업_2056.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8925A0E615004EE0C4 /* 작업_2056.swift */; };
+		07585B8C25A0E7F5004EE0C4 /* LCA_11437.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B8B25A0E7F5004EE0C4 /* LCA_11437.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1069,6 +1070,7 @@
 		07585B8525A0E4A2004EE0C4 /* 부분합_1806.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부분합_1806.swift"; sourceTree = "<group>"; };
 		07585B8725A0E4CF004EE0C4 /* 수도쿠_2239.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수도쿠_2239.swift"; sourceTree = "<group>"; };
 		07585B8925A0E615004EE0C4 /* 작업_2056.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "작업_2056.swift"; sourceTree = "<group>"; };
+		07585B8B25A0E7F5004EE0C4 /* LCA_11437.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA_11437.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1686,6 +1688,7 @@
 			children = (
 				075858C3259E382E004EE0C4 /* 완전이진트리_9934.cpp */,
 				075858C4259E382E004EE0C4 /* 완전이진트리_9934.swift */,
+				07585B8B25A0E7F5004EE0C4 /* LCA_11437.swift */,
 				075858C5259E382E004EE0C4 /* 트리순회_1991.swift */,
 				075858C6259E382E004EE0C4 /* 히스토그램에서가장큰직사각형_6549.cpp */,
 				075858C7259E382E004EE0C4 /* 구간합구하기_2042.cpp */,
@@ -2683,6 +2686,7 @@
 				07585B8825A0E4CF004EE0C4 /* 수도쿠_2239.swift in Sources */,
 				07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */,
 				075852FD259E3799004EE0C4 /* main.swift in Sources */,
+				07585B8C25A0E7F5004EE0C4 /* LCA_11437.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
 				07585B8425A0E469004EE0C4 /* 2009년_2948.swift in Sources */,
 				07585B8625A0E4A2004EE0C4 /* 부분합_1806.swift in Sources */,
