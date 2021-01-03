@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
+		075852FD259E3799004EE0C4 /* mainc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* mainc.swift */; };
 		07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */; };
 		07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7525A0E304004EE0C4 /* 히스토그램_1725.swift */; };
 		07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7725A0E345004EE0C4 /* 나무자르기_2805.swift */; };
@@ -26,6 +26,8 @@
 		07585B9225A0ECE0004EE0C4 /* ACM_Craft_1005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9125A0ECE0004EE0C4 /* ACM_Craft_1005.swift */; };
 		07585B9425A1B4DA004EE0C4 /* 본대산책_12849.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9325A1B4DA004EE0C4 /* 본대산책_12849.swift */; };
 		07585B9625A1C1FF004EE0C4 /* FourSquares_17626.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9525A1C1FF004EE0C4 /* FourSquares_17626.swift */; };
+		07585B9A25A1C8E2004EE0C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9825A1C8E2004EE0C4 /* main.cpp */; };
+		07F7A93A25A226800059A946 /* 리모컨_1107.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93925A226800059A946 /* 리모컨_1107.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		075852F9259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackjoonAlgorithmPS; sourceTree = BUILT_PRODUCTS_DIR; };
-		075852FC259E3799004EE0C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		075852FC259E3799004EE0C4 /* mainc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainc.swift; sourceTree = "<group>"; };
 		0758573C259E382D004EE0C4 /* 회전하는큐_1021.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "회전하는큐_1021.cpp"; sourceTree = "<group>"; };
 		0758573D259E382D004EE0C4 /* 큐2_18258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큐2_18258.swift"; sourceTree = "<group>"; };
 		0758573E259E382D004EE0C4 /* 감소하는수_1038.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "감소하는수_1038.swift"; sourceTree = "<group>"; };
@@ -1081,6 +1083,10 @@
 		07585B9125A0ECE0004EE0C4 /* ACM_Craft_1005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACM_Craft_1005.swift; sourceTree = "<group>"; };
 		07585B9325A1B4DA004EE0C4 /* 본대산책_12849.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "본대산책_12849.swift"; sourceTree = "<group>"; };
 		07585B9525A1C1FF004EE0C4 /* FourSquares_17626.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquares_17626.swift; sourceTree = "<group>"; };
+		07585B9725A1C8E2004EE0C4 /* BackjoonAlgorithmPS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackjoonAlgorithmPS-Bridging-Header.h"; sourceTree = "<group>"; };
+		07585B9825A1C8E2004EE0C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07585B9925A1C8E2004EE0C4 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		07F7A93925A226800059A946 /* 리모컨_1107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리모컨_1107.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1113,7 +1119,9 @@
 		075852FB259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {
 			isa = PBXGroup;
 			children = (
-				075852FC259E3799004EE0C4 /* main.swift */,
+				075852FC259E3799004EE0C4 /* mainc.swift */,
+				07585B9825A1C8E2004EE0C4 /* main.cpp */,
+				07585B9925A1C8E2004EE0C4 /* main.hpp */,
 				0758596F259E382E004EE0C4 /* BackTracking */,
 				075859BF259E382E004EE0C4 /* Basic */,
 				07585A96259E382F004EE0C4 /* BinarySearch */,
@@ -1135,6 +1143,7 @@
 				07585AA3259E382F004EE0C4 /* String */,
 				075858C2259E382E004EE0C4 /* Tree */,
 				07585A9C259E382F004EE0C4 /* TwoPointer */,
+				07585B9725A1C8E2004EE0C4 /* BackjoonAlgorithmPS-Bridging-Header.h */,
 			);
 			path = BackjoonAlgorithmPS;
 			sourceTree = "<group>";
@@ -1714,6 +1723,7 @@
 			children = (
 				075858CA259E382E004EE0C4 /* 2_3_Permutation_TSP_10971.cpp */,
 				075858CB259E382E004EE0C4 /* e계산.cpp */,
+				07F7A93925A226800059A946 /* 리모컨_1107.swift */,
 				075858CC259E382E004EE0C4 /* 단어나누기_1251.cpp */,
 				075858CD259E382E004EE0C4 /* 신기한소수_2023.cpp */,
 				075858CE259E382E004EE0C4 /* goodGrass_6124.cpp */,
@@ -2668,6 +2678,7 @@
 				TargetAttributes = {
 					075852F8259E3799004EE0C4 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -2702,16 +2713,18 @@
 				07585B9425A1B4DA004EE0C4 /* 본대산책_12849.swift in Sources */,
 				07585B8825A0E4CF004EE0C4 /* 수도쿠_2239.swift in Sources */,
 				07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */,
-				075852FD259E3799004EE0C4 /* main.swift in Sources */,
+				075852FD259E3799004EE0C4 /* mainc.swift in Sources */,
 				07585B8C25A0E7F5004EE0C4 /* LCA_11437.swift in Sources */,
 				07585B8E25A0E847004EE0C4 /* 세용액_2473.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
 				07585B8425A0E469004EE0C4 /* 2009년_2948.swift in Sources */,
 				07585B8625A0E4A2004EE0C4 /* 부분합_1806.swift in Sources */,
+				07F7A93A25A226800059A946 /* 리모컨_1107.swift in Sources */,
 				07585B9225A0ECE0004EE0C4 /* ACM_Craft_1005.swift in Sources */,
 				07585B7C25A0E392004EE0C4 /* Z_1074.swift in Sources */,
 				07585B9025A0E87F004EE0C4 /* 음악프로그램_2623.swift in Sources */,
 				07585B8225A0E43A004EE0C4 /* 선수과목_14567.swift in Sources */,
+				07585B9A25A1C8E2004EE0C4 /* main.cpp in Sources */,
 				07585B7A25A0E36E004EE0C4 /* 좌표압축_18870.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2835,8 +2848,16 @@
 		07585301259E3799004EE0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BackjoonAlgorithmPS/BackjoonAlgorithmPS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -2844,8 +2865,15 @@
 		07585302259E3799004EE0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BackjoonAlgorithmPS/BackjoonAlgorithmPS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
