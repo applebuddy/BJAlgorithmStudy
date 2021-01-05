@@ -28,6 +28,7 @@
 		07585B9625A1C1FF004EE0C4 /* FourSquares_17626.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9525A1C1FF004EE0C4 /* FourSquares_17626.swift */; };
 		07585B9A25A1C8E2004EE0C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07585B9825A1C8E2004EE0C4 /* main.cpp */; };
 		07F7A93A25A226800059A946 /* 리모컨_1107.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93925A226800059A946 /* 리모컨_1107.swift */; };
+		07F7A93C25A4C18A0059A946 /* 순열장난_10597.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93B25A4C18A0059A946 /* 순열장난_10597.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1087,6 +1088,7 @@
 		07585B9825A1C8E2004EE0C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07585B9925A1C8E2004EE0C4 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
 		07F7A93925A226800059A946 /* 리모컨_1107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리모컨_1107.swift"; sourceTree = "<group>"; };
+		07F7A93B25A4C18A0059A946 /* 순열장난_10597.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "순열장난_10597.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1979,6 +1981,7 @@
 				07585970259E382E004EE0C4 /* 숫자판점프_2210.swift */,
 				07585971259E382E004EE0C4 /* N-Queen_9663.swift */,
 				07585B8725A0E4CF004EE0C4 /* 수도쿠_2239.swift */,
+				07F7A93B25A4C18A0059A946 /* 순열장난_10597.swift */,
 				07585972259E382E004EE0C4 /* 좋은수열_2661.swift */,
 				07585973259E382E004EE0C4 /* 수도쿠 */,
 				07585974259E382E004EE0C4 /* 사다리조작_15684.swift */,
@@ -2705,6 +2708,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F7A93C25A4C18A0059A946 /* 순열장난_10597.swift in Sources */,
 				07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */,
 				07585B9625A1C1FF004EE0C4 /* FourSquares_17626.swift in Sources */,
 				07585B7E25A0E3D9004EE0C4 /* Gauß_7523.swift in Sources */,
