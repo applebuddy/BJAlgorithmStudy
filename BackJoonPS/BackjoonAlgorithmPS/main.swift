@@ -6,6 +6,7 @@
 //  Copyright © 2021 MungGu. All rights reserved.
 //
 
+/*
 let N = Int(readLine()!)!
 let len = 8
 var G = [[Int]](repeating: [Int](), count: len)
@@ -39,3 +40,4 @@ func DFS(_ node: Int, _ time: Int) -> Int {
 }
 
 print(DFS(7, 0))
+*/

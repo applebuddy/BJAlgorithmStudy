@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075852FD259E3799004EE0C4 /* mainc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* mainc.swift */; };
+		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
 		07585B7425A0E1E3004EE0C4 /* 줄어들지않아_2688.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7325A0E1E3004EE0C4 /* 줄어들지않아_2688.swift */; };
 		07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7525A0E304004EE0C4 /* 히스토그램_1725.swift */; };
 		07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07585B7725A0E345004EE0C4 /* 나무자르기_2805.swift */; };
@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		075852F9259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackjoonAlgorithmPS; sourceTree = BUILT_PRODUCTS_DIR; };
-		075852FC259E3799004EE0C4 /* mainc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainc.swift; sourceTree = "<group>"; };
+		075852FC259E3799004EE0C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0758573C259E382D004EE0C4 /* 회전하는큐_1021.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "회전하는큐_1021.cpp"; sourceTree = "<group>"; };
 		0758573D259E382D004EE0C4 /* 큐2_18258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큐2_18258.swift"; sourceTree = "<group>"; };
 		0758573E259E382D004EE0C4 /* 감소하는수_1038.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "감소하는수_1038.swift"; sourceTree = "<group>"; };
@@ -1125,7 +1125,7 @@
 		075852FB259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {
 			isa = PBXGroup;
 			children = (
-				075852FC259E3799004EE0C4 /* mainc.swift */,
+				075852FC259E3799004EE0C4 /* main.swift */,
 				07585B9825A1C8E2004EE0C4 /* main.cpp */,
 				07585B9925A1C8E2004EE0C4 /* main.hpp */,
 				0758596F259E382E004EE0C4 /* BackTracking */,
@@ -2723,7 +2723,7 @@
 				07585B9425A1B4DA004EE0C4 /* 본대산책_12849.swift in Sources */,
 				07585B8825A0E4CF004EE0C4 /* 수도쿠_2239.swift in Sources */,
 				07585B8025A0E413004EE0C4 /* 문제집_1766.swift in Sources */,
-				075852FD259E3799004EE0C4 /* mainc.swift in Sources */,
+				075852FD259E3799004EE0C4 /* main.swift in Sources */,
 				07585B8C25A0E7F5004EE0C4 /* LCA_11437.swift in Sources */,
 				07585B8E25A0E847004EE0C4 /* 세용액_2473.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
