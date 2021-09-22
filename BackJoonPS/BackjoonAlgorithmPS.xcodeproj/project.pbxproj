@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0704711F26FB437A00BFDA26 /* 거짓말_1043.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704711E26FB437A00BFDA26 /* 거짓말_1043.swift */; };
 		0704712126FB4EAF00BFDA26 /* 치즈_2638.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704712026FB4EAF00BFDA26 /* 치즈_2638.swift */; };
+		0704712326FBAD1500BFDA26 /* RGB거리2_17404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704712226FBAD1500BFDA26 /* RGB거리2_17404.swift */; };
 		070EED4726D4EEE100C138B4 /* 보물섬_2589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EED4626D4EEE100C138B4 /* 보물섬_2589.swift */; };
 		0710E91E26F8B2B900CBB151 /* 빵집_3109.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710E91D26F8B2B900CBB151 /* 빵집_3109.swift */; };
 		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		0704711E26FB437A00BFDA26 /* 거짓말_1043.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "거짓말_1043.swift"; sourceTree = "<group>"; };
 		0704712026FB4EAF00BFDA26 /* 치즈_2638.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "치즈_2638.swift"; sourceTree = "<group>"; };
+		0704712226FBAD1500BFDA26 /* RGB거리2_17404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGB거리2_17404.swift"; sourceTree = "<group>"; };
 		070EED4626D4EEE100C138B4 /* 보물섬_2589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보물섬_2589.swift"; sourceTree = "<group>"; };
 		0710E91D26F8B2B900CBB151 /* 빵집_3109.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빵집_3109.swift"; sourceTree = "<group>"; };
 		075852F9259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackjoonAlgorithmPS; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1596,6 +1598,7 @@
 			children = (
 				0758585D259E382D004EE0C4 /* LCS2_9252.cpp */,
 				07585B9525A1C1FF004EE0C4 /* FourSquares_17626.swift */,
+				0704712226FBAD1500BFDA26 /* RGB거리2_17404.swift */,
 				07D765A726D41251001AB53A /* 파이프옮기기1_17070.swift */,
 				07585B9325A1B4DA004EE0C4 /* 본대산책_12849.swift */,
 				0758585E259E382D004EE0C4 /* 가장긴팰린드롬부분문자열_13275.cpp */,
@@ -2753,6 +2756,7 @@
 				07F7A93C25A4C18A0059A946 /* 순열장난_10597.swift in Sources */,
 				07CF82CB26C7C67700230BDA /* 풍선터뜨리기_2346.swift in Sources */,
 				07E69FD725CDBDDD00BAA4B8 /* 집합의표현_17171.swift in Sources */,
+				0704712326FBAD1500BFDA26 /* RGB거리2_17404.swift in Sources */,
 				07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */,
 				07585B9625A1C1FF004EE0C4 /* FourSquares_17626.swift in Sources */,
 				07585B7E25A0E3D9004EE0C4 /* Gauß_7523.swift in Sources */,
