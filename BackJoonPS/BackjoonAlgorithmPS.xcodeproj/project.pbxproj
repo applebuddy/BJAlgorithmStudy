@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0704711F26FB437A00BFDA26 /* 그래프_1043.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704711E26FB437A00BFDA26 /* 그래프_1043.swift */; };
 		070EED4726D4EEE100C138B4 /* 보물섬_2589.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EED4626D4EEE100C138B4 /* 보물섬_2589.swift */; };
 		0710E91E26F8B2B900CBB151 /* 빵집_3109.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710E91D26F8B2B900CBB151 /* 빵집_3109.swift */; };
 		075852FD259E3799004EE0C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075852FC259E3799004EE0C4 /* main.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0704711E26FB437A00BFDA26 /* 그래프_1043.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "그래프_1043.swift"; sourceTree = "<group>"; };
 		070EED4626D4EEE100C138B4 /* 보물섬_2589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "보물섬_2589.swift"; sourceTree = "<group>"; };
 		0710E91D26F8B2B900CBB151 /* 빵집_3109.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빵집_3109.swift"; sourceTree = "<group>"; };
 		075852F9259E3799004EE0C4 /* BackjoonAlgorithmPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackjoonAlgorithmPS; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2680,6 +2682,7 @@
 			isa = PBXGroup;
 			children = (
 				07E69FD625CDBDDD00BAA4B8 /* 집합의표현_17171.swift */,
+				0704711E26FB437A00BFDA26 /* 그래프_1043.swift */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -2711,7 +2714,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = MungGu;
 				TargetAttributes = {
 					075852F8259E3799004EE0C4 = {
@@ -2760,6 +2763,7 @@
 				070EED4726D4EEE100C138B4 /* 보물섬_2589.swift in Sources */,
 				07585B8E25A0E847004EE0C4 /* 세용액_2473.swift in Sources */,
 				07585B7825A0E345004EE0C4 /* 나무자르기_2805.swift in Sources */,
+				0704711F26FB437A00BFDA26 /* 그래프_1043.swift in Sources */,
 				07D765A126D25EA2001AB53A /* 피보나치수6_11444.swift in Sources */,
 				07585B8425A0E469004EE0C4 /* 2009년_2948.swift in Sources */,
 				07585B8625A0E4A2004EE0C4 /* 부분합_1806.swift in Sources */,
@@ -2806,6 +2810,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2866,6 +2871,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2897,6 +2903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2914,6 +2921,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
