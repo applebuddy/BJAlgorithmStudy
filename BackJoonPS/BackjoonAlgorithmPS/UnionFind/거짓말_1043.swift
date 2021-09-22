@@ -6,7 +6,7 @@
 //  Copyright © 2021 MungGu. All rights reserved.
 //
 
-// MARK: - 그래프 1043, Union Find 문제풀이
+// MARK: - 거짓말 1043, Union Find 문제풀이
 
 /*
 let readInput: (() -> [Int]) = {
