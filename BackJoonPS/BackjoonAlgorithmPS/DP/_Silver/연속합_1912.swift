@@ -7,21 +7,34 @@
 //
 
 // MARK: - 연속합 1912
-// MARK: DP swift 문제풀이
+// MARK: DP swift 문제풀이 + 복습 1회
 
-/*
-import Foundation
+func boj1912() {
+    let readInput: (() -> [Int]) = {
+        var result: [Int] = []
+        var temp = 0
+        var isMinus = false
+        for char in readLine()! {
+            if char == " " {
+                result.append(temp * (isMinus ? -1 : 1))
+                temp = 0
+                isMinus = false
+                continue
+            } else if char == "-" {
+                isMinus = true
+                continue
+            }
 
-let N = Int(readLine()!)!
-let arr = readLine()!.split(separator: " ").map { Int($0)! }
+            temp = temp * 10 + Int(char.asciiValue!) - 48
+        }
+        result.append(temp * (isMinus ? -1 : 1))
+        return result
+    }
 
-var dp = 0
-var Ans = -1001
-for i in arr.indices {
-    dp += arr[i]
-    Ans = Ans < dp ? dp : Ans;
-    if dp < 0 { dp = 0 }
+    let N = readInput().first!
+    print(readInput().reduce(into: (ans: Int.min, temp: 0)) { tp, num in
+        tp.temp += num
+        tp.temp = tp.temp > num ? tp.temp : num
+        tp.ans = tp.temp > tp.ans ? tp.temp : tp.ans
+    }.ans)
 }
-
-print(Ans)
-*/
