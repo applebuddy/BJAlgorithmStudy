@@ -7,28 +7,28 @@
 //
 
 // MARK: - 1로만들기
-// MARK: DP swift 문제풀이
-
-/*
-import Foundation
+// MARK: DP swift 문제풀이 + 복습 1회
 
 let N = Int(readLine()!)!
 
-var DP = [Int](repeating: 0, count: 1000001)
-DP[1] = 0
-func go(_ N: Int) -> Int {
-    if DP[N]>0 || N==1 { return DP[N] }
+var cache = [Int](repeating: 0, count: Int(1e6) + 1)
+func go(_ n: Int) -> Int {
+    if cache[n] > 0 { return cache[n] }
+    if n == 1 { return 0 }
+    if n == 2 { return 1 }
+
+    var minValue = go(n - 1) + 1
+
+    if n % 3 == 0 {
+        minValue = min(minValue, go(n / 3) + 1)
+    }
     
-    var Ans = go(N-1) + 1
-    if N % 3 == 0 {
-        Ans = min(Ans, go(N/3) + 1)
+    if n % 2 == 0 {
+        minValue = min(minValue, go(n / 2) + 1)
     }
-    if N % 2 == 0 {
-        Ans = min(Ans, go(N/2) + 1)
-    }
-    DP[N] = Ans
-    return DP[N]
+
+    cache[n] = minValue
+    return minValue
 }
 
 print(go(N))
-*/
