@@ -20,5 +20,53 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805C7EAC-E0D1-4904-B2D2-D66A253A56EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackjoonAlgorithmPS/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "805C7EAC-E0D1-4904-B2D2-D66A253A56EC - 9d4d883085856de1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackjoonAlgorithmPS.solve() -&gt; ()"
+                  moduleName = "BackjoonAlgorithmPS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applebuddy/Documents/Educations/BJAlgorithmPractice/BackjoonPS/BackjoonAlgorithmPS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "425">
+               </Location>
+               <Location
+                  uuid = "805C7EAC-E0D1-4904-B2D2-D66A253A56EC - 3b57041285f0a9cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;, Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Bool in BackjoonAlgorithmPS.solve() -&gt; ()"
+                  moduleName = "BackjoonAlgorithmPS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applebuddy/Documents/Educations/BJAlgorithmPractice/BackjoonPS/BackjoonAlgorithmPS/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
