@@ -1,6 +1,6 @@
 //
 //  main.hpp
-//  BackjoonAlgorithmPS
+//  BaekjoonAlgorithmPS
 //
 //  Created by MinKyeongTae on 2021/01/03.
 //  Copyright © 2021 MungGu. All rights reserved.
