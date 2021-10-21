@@ -19,9 +19,6 @@ vector<vector<int>> G;
 
 int dx[] = {0, 0, -1, 1};
 int dy[] = {1, -1, 0, 0};
-int getDist(Pair pos, Pair pos2) {
-    return abs(pos.first - pos2.first) + abs(pos.second - pos2.second);
-}
 
 struct FeedInfo {
 public:
@@ -29,11 +26,10 @@ public:
     int size;
     int dist;
     int idx;
-    FeedInfo(Pair pos, int size, int dist, int idx) {
+    FeedInfo(Pair pos, int size, int dist) {
         this->pos = pos;
         this->size = size;
         this->dist = dist;
-        this->idx = idx;
     }
 };
 
@@ -64,7 +60,6 @@ public:
         Q.push({pos, 0});
         vector<vector<bool>> chkV(N, vector<bool>(N, false));
         chkV[pos.first][pos.second] = true;
-        int idx = 0;
         while(!Q.empty()) {
             int x = Q.front().first.first;
             int y = Q.front().first.second;
@@ -78,8 +73,7 @@ public:
                 if(chkV[nx][ny]) continue;
                 chkV[nx][ny] = true;
                 if(G[nx][ny] > 0 && G[nx][ny] != 9 && G[nx][ny] < this->size) {
-                    goodFeedV.push_back(FeedInfo({nx, ny}, G[nx][ny], dist+1, idx));
-                    idx++;
+                    goodFeedV.push_back(FeedInfo({nx, ny}, G[nx][ny], dist+1));
                 }
                 Q.push({{nx, ny}, dist+1});
             }
@@ -88,7 +82,8 @@ public:
         if ((int)goodFeedV.size() == 0) return {false, {{-1, -1}, 0}};
         sort(goodFeedV.begin(), goodFeedV.end(), [](const FeedInfo &a, const FeedInfo & b) {
             return (a.dist < b.dist) ||
-            (a.dist == b.dist && (a.pos.first < b.pos.first || (a.pos.first == b.pos.first && a.pos.second < b.pos.second)));
+            (a.dist == b.dist && (a.pos.first < b.pos.first
+                                  || (a.pos.first == b.pos.first && a.pos.second < b.pos.second)));
         });
         return {true, {goodFeedV[0].pos, goodFeedV[0].dist}};
     }
