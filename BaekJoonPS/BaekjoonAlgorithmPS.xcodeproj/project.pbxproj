@@ -89,6 +89,7 @@
 		07F7A93A25A226800059A946 /* 리모컨_1107.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93925A226800059A946 /* 리모컨_1107.swift */; };
 		07F7A93C25A4C18A0059A946 /* 순열장난_10597.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93B25A4C18A0059A946 /* 순열장난_10597.swift */; };
 		07F7A93E25A4CB1B0059A946 /* 1로만들기2_12852.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7A93D25A4CB1B0059A946 /* 1로만들기2_12852.swift */; };
+		07F8444927764DAA0088CE54 /* 반복수열_2331.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8444827764DAA0088CE54 /* 반복수열_2331.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1210,6 +1211,7 @@
 		07F7A93925A226800059A946 /* 리모컨_1107.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리모컨_1107.swift"; sourceTree = "<group>"; };
 		07F7A93B25A4C18A0059A946 /* 순열장난_10597.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "순열장난_10597.swift"; sourceTree = "<group>"; };
 		07F7A93D25A4CB1B0059A946 /* 1로만들기2_12852.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1로만들기2_12852.swift"; sourceTree = "<group>"; };
+		07F8444827764DAA0088CE54 /* 반복수열_2331.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "반복수열_2331.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1347,6 +1349,7 @@
 				07585760259E382D004EE0C4 /* example_GCD.hpp */,
 				07B46A9A26FC7AF300844B97 /* 카잉달력_6064.swift */,
 				0757CD602725CF3D003B2909 /* 문어숫자_1864.swift */,
+				07F8444827764DAA0088CE54 /* 반복수열_2331.swift */,
 				0757CD5A272496AC003B2909 /* 4와7_2877.swift */,
 				07B46A9826FC668900844B97 /* 백발백준하는명사수_22938.swift */,
 				07585761259E382D004EE0C4 /* 이항계수3_11401.cpp */,
@@ -2909,6 +2912,7 @@
 				07B46AAB26FE4DEE00844B97 /* 쉬운계단수_10844.swift in Sources */,
 				07B46AA326FDDC2A00844B97 /* 피보나치함수_1003.swift in Sources */,
 				07E69FD725CDBDDD00BAA4B8 /* 집합의표현_17171.swift in Sources */,
+				07F8444927764DAA0088CE54 /* 반복수열_2331.swift in Sources */,
 				07B46AA126FDC8D400844B97 /* 1,2,3더하기_9095.swift in Sources */,
 				0704712326FBAD1500BFDA26 /* RGB거리2_17404.swift in Sources */,
 				07585B7625A0E304004EE0C4 /* 히스토그램_1725.swift in Sources */,
