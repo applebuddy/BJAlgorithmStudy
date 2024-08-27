@@ -1,4 +1,24 @@
-### Problem Solving Note
+## Problem Solving Note
+
+### Basic
+
+- [대지](https://www.acmicpc.net/problem/9063)
+  - math
+
+```swift
+let n = Int(readLine()!)!
+var (minX, minY, maxX, maxY) = (10000, 10000, -10000, -10000)
+
+(0..<n).forEach { _ in 
+    let inputs = readLine()!.split(separator: " ").map(String.init).compactMap(Int.init)
+    minX = minX > inputs[0] ? inputs[0] : minX
+    minY = minY > inputs[1] ? inputs[1] : minY
+    maxX = maxX < inputs[0] ? inputs[0] : maxX
+    maxY = maxY < inputs[1] ? inputs[1] : maxY
+}
+
+print((maxX - minX) * (maxY - minY))
+```
 
 - [최댓값](https://www.acmicpc.net/problem/2566)
 
