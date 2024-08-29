@@ -2,6 +2,14 @@
 
 ### Basic
 
+- [커트라인](https://www.acmicpc.net/problem/25305)
+  - sorting
+
+```swift
+let k = readLine()!.split(separator: " ").compactMap { Int(String($0)) }[1]
+print(readLine()!.split(separator: " ").compactMap { Int(String($0)) }.sorted(by: >)[k-1])
+```
+
 - [대지](https://www.acmicpc.net/problem/9063)
   - math
 
