@@ -10,6 +10,14 @@ let k = readLine()!.split(separator: " ").compactMap { Int(String($0)) }[1]
 print(readLine()!.split(separator: " ").compactMap { Int(String($0)) }.sorted(by: >)[k-1])
 ```
 
+- [알고리즘 수업 - 알고리즘의 수행 시간 4](https://boj.kr/24265)
+  - math
+
+```swift
+let n = Int(readLine()!)! - 1
+print("\(n * (n + 1) / 2)\n2")
+```
+
 - [대지](https://www.acmicpc.net/problem/9063)
   - math
 
