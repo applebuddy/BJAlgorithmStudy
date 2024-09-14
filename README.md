@@ -2,6 +2,64 @@
 
 ### Basic
 
+- [재귀의 귀재](https://www.acmicpc.net/problem/25501)
+
+```swift
+var count = 0
+
+func recursion(_ arr: inout [Character], _ left: Int, _ right: Int) -> Int {
+    count += 1
+    if left >= right { return 1 }
+    else if arr[left] != arr[right] { return 0 }
+    
+    return recursion(&arr, left + 1, right - 1)
+}
+
+let t = Int(readLine()!)!
+var answers: [String] = []
+(0..<t).forEach { _ in
+    var input = Array(readLine()!)
+    count = 0
+    answers.append("\(recursion(&input, 0, input.count - 1)) \(count)")
+}
+
+print(answers.joined(separator: "\n"))
+```
+
+- [팩토리얼 2](https://www.acmicpc.net/problem/27433)
+
+```swift
+let n = Int(readLine()!)!
+
+func factorial(_ n: Int) -> Int {
+    if n == 0 { return 1 }
+    
+    return factorial(n - 1) * n
+}
+
+print(factorial(n))
+```
+
+- [녹색거탑](https://www.acmicpc.net/problem/24723)
+
+```swift
+var n = Int(readLine()!)!
+var num = 2
+var ans = 1
+
+while n > 0 {
+    if n % 2 == 0 {
+        num *= num
+        n /= 2
+    } else {
+        ans *= num
+        n -= 1
+    }
+}
+
+print(ans)
+```
+
 - [커트라인](https://www.acmicpc.net/problem/25305)
   - sorting
 
