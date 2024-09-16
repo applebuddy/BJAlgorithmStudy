@@ -150,3 +150,44 @@ let (count, sum) = (0..<20).reduce(into: (0, 0.0)) { result, _ in
 
 print(sum / Double(count))
 ```
+
+### DFS
+
+- [알고리즘 수업 - 깊이 우선 탐색 1](boj.kr/24479)
+
+```swift
+let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+let (n, m, r) = (input[0], input[1], input[2])
+var graph = [[Int]](repeating: [Int](), count: n + 1)
+var visited = [Bool](repeating: false, count: n + 1)
+var list: [Int] = []
+
+func dfs(_ n: Int) {
+    if visited[n] { return }
+    visited[n] = true
+    list.append(n)
+    
+    graph[n].forEach { node in
+        dfs(node)
+    }
+}
+
+(0..<m).forEach { _ in
+    let input2 = readLine()!.split(separator: " ").map { Int(String($0))! }
+    graph[input2[0]].append(input2[1])
+    graph[input2[1]].append(input2[0])
+}
+
+graph = graph.map { $0.sorted() }
+dfs(r)
+
+let answer = list
+    .enumerated()
+    .reduce(into: [String](repeating: "0", count: n)) { result, tp in
+        let (index, elem) = tp
+        result[elem - 1] = "\(index + 1)"
+    }
+    .joined(separator: "\n")
+
+print(answer)
+```
