@@ -191,3 +191,47 @@ let answer = list
 
 print(answer)
 ```
+
+### Union Find
+
+- [집합의 표현](https://boj.kr/1717)
+
+```swift
+import Foundation
+
+let ip = readLine()!.split(separator: " ").map { Int(String($0))! }
+let (n, m) = (ip[0], ip[1])
+var parents = [Int](0...n)
+
+func getParent(_ node: Int) -> Int {
+  if parents[node] == node { return node }
+  parents[node] = getParent(parents[node])
+  return parents[node]
+}
+
+func merge(_ a: Int, _ b: Int) {
+  let aParent = getParent(a)  
+  let bParent = getParent(b)  
+  if parents[aParent] < parents[bParent] {
+    parents[bParent] = aParent
+  } else {
+    parents[aParent] = bParent
+  }
+}
+
+var answers: [String] = []
+(0..<m).forEach { _ in 
+  let ip2 = readLine()!.split(separator: " ").map { Int(String($0))! }
+  let (op, a, b) = (ip2[0], ip2[1], ip2[2])
+  if op == 0 {
+    merge(a, b)
+    // print("merge \(a) and \(b), parents : \(parents)")
+  } else {
+    answers.append(
+        getParent(a) == getParent(b) ? "YES" : "NO" 
+    )
+  }
+}
+
+print(answers.joined(separator: "\n"))
+```
